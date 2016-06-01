@@ -97,6 +97,12 @@ var hierarchy =
     [ "Trollpants.CloudOnce.Internal.PersistentValue< bool >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
       [ "Trollpants.CloudOnce.CloudPrefs.CloudBool", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html", null ]
     ] ],
+    [ "Trollpants.CloudOnce.Internal.PersistentValue< DateTime >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
+      [ "Trollpants.CloudOnce.CloudPrefs.CloudDateTime", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_date_time.html", null ]
+    ] ],
+    [ "Trollpants.CloudOnce.Internal.PersistentValue< decimal >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
+      [ "Trollpants.CloudOnce.CloudPrefs.CloudDecimal", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_decimal.html", null ]
+    ] ],
     [ "Trollpants.CloudOnce.Internal.PersistentValue< double >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
       [ "Trollpants.CloudOnce.CloudPrefs.CloudDouble", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_double.html", null ]
     ] ],
@@ -105,6 +111,9 @@ var hierarchy =
     ] ],
     [ "Trollpants.CloudOnce.Internal.PersistentValue< int >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
       [ "Trollpants.CloudOnce.CloudPrefs.CloudInt", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_int.html", null ]
+    ] ],
+    [ "Trollpants.CloudOnce.Internal.PersistentValue< long >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
+      [ "Trollpants.CloudOnce.CloudPrefs.CloudLong", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_long.html", null ]
     ] ],
     [ "Trollpants.CloudOnce.Internal.PersistentValue< string >", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_value.html", [
       [ "Trollpants.CloudOnce.CloudPrefs.CloudString", "class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html", null ]

@@ -14,7 +14,7 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
         [ "Properties", "functions_prop.html", null ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
@@ -25,8 +25,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html#a74c7b4046059b86ce2fb22b38e117ee0",
-"interface_trollpants_1_1_cloud_once_1_1_internal_1_1_i_json_convertible.html"
+"class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html#a2b78229c5929a0f8f6985bfd0453faa5",
+"class_trollpants_1_1_cloud_once_1_1_quick_start_1_1_leaderboards_button.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

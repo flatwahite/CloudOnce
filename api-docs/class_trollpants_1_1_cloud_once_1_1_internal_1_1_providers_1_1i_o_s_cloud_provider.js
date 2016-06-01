@@ -2,6 +2,7 @@ var class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_pr
 [
     [ "Initialize", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#afe79c5bc1f5f4a08c8f6ede91738e295", null ],
     [ "InternalInit", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a074cf01eaafd8f34a38c743ef5789822", null ],
+    [ "LoadUsers", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a577b9c08dc5bf8e4788b35e4be9c1764", null ],
     [ "SignIn", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a621cd7961e4d6cc80df3d3216cfee6ec", null ],
     [ "SignOut", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a1debfe5faf27e92077768c91f3564a20", null ],
     [ "CloudSaveEnabled", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#ad4e4c9c0d65969e41e27061508bdfb38", null ],
