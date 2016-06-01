@@ -1,0 +1,101 @@
+.introtron {
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/header-01.png) 100% 100% no-repeat;
+    margin: 0px;
+    background-position: 100% 80%
+}
+
+.intro-video {
+    margin-top: 78px
+}
+
+iframe {
+    border: 0px
+}
+
+.features-image {
+    vertical-align: middle
+}
+
+.section-heading {
+    font-size: 3em;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+.content-reviews {
+    background-color: #f8f8f8
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7
+}
+
+.dark-shadow {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6)
+}
+
+.banner {
+    padding: 60px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/header-01.png) 100% 100% no-repeat;
+    background-position: 100% 46%
+}
+
+@media (min-height: 1500px) {
+    .btn-learn-more {
+        display: none
+    }
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+
+@media (max-width: 767px) {
+    .btn-learn-more {
+        display: none
+    }
+}
+
+
+/* Small devices (tablets, 768px to 991px) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .btn-learn-more {
+        display: none
+    }
+}
+
+
+/* Medium devices (desktops, 992px to 1199px) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .btn-learn-more {
+        padding-top: 75px
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .jumbotron {
+        padding-top: 160px;
+        padding-bottom: 130px
+    }
+    .btn-learn-more {
+        padding-top: 200px
+    }
+    .feature-image {
+        margin-top: 20px
+    }
+}

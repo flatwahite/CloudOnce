@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="CloudOnce - Unified game services API">
+        <meta name="author" content="Jan Ivar Carlsen">
+
+        <title>CloudOnce - Getting Started</title>
+
+        <!-- Bootstrap core CSS & optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <!-- Custom styles for this template -->
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/gettingStarted.css" rel="stylesheet">
+        <link href="css/nav.css" rel="stylesheet">
+        
+        <!-- Prism Code Highlighting -->
+        <link href="css/prism.css" rel="stylesheet" />
+
+        <!-- Custom Fonts -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="ico/favicon.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body data-spy="scroll" data-target=".scrollspy">
+
+        <!-- Screen reader skip link -->
+        <a id="skippy" class="sr-only sr-only-focusable" href="#top">
+            <div class="container"><span class="skiplink-text">Skip to main content</span></div>
+        </a>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false" aria-controls="top-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img class="nav-logo" src="img/logo_small.png" alt="CloudOnce logo">CloudOnce</a>
+                </div>
+                <div id="top-navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="gettingStarted.html"><i class="nav-icon glyphicon glyphicon-education"></i>Getting Started</a></li>
+                        <li><a href="api-docs/index.html"><i class="nav-icon glyphicon glyphicon-book"></i>API Docs</a></li>
+                        <li><a href="index.html#content"><i class="nav-icon glyphicon glyphicon-info-sign"></i>About</a></li>
+                        <li><a href="mailto:info@trollpants.com"><i class="nav-icon glyphicon glyphicon-envelope"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Getting Started header -->
+        <span class="anchor" id="top"></span>
+        <section class="subpage-header initial-setup-header docs-section">
+            <div class="container">
+                <div class="row subpage-intro-message">
+                    <h1><i class="icon-large glyphicon glyphicon-education"></i>Getting Started</h1>
+                    <h3>Your one-stop guide to all things CloudOnce</h3>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Getting Started content -->
+        <span class="anchor" id="content"></span>
+        <div class="container">
+            <div class="row">
+                
+                <!-- Main content column -->
+                <div class="col-md-9" role="main">
+                    
+                    <!-- Developer Consoles -->
+                    <span class="anchor" id="dev-consoles"></span>
+                    <section class="row docs-section">
+                        <h2>Developer consoles</h2>
+                        <p>CloudOnce connects to the native APIs on each platform. In order to add achievements,
+                            leaderboards and cloud save to your game you must set up your game on each platforms developer console.</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4 class="idList idList-GameCenter">Apple</h4>
+                                <p>
+                                    <a href="https://developer.apple.com/membercenter">Apple Developer Member Center</a>
+                                    <br>
+                                    <a href="https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa">iTunes Connect</a>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="idList idList-PlayGames">Google</h4>
+                                <p><a href="https://play.google.com/apps/publish">Google Play Developer Console</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="idList idList-GameCircle">Amazon</h4>
+                                <p><a href="https://developer.amazon.com/home.html">Amazon App Distribution Program</a></p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Requirements -->
+                    <span class="anchor" id="requirements"></span>
+                    <section class="row docs-section">
+                        <h2>Requirements</h2>
+                        <p>Before CloudOnce will work, there are some requirements that must be fulfilled. They differ depending on what
+                            platforms you decide to support. Below are the shared requirements and the ones for each individual platform.</p>
+                        <div class="row">
+                            <div class="col-md-5">
+                                
+                                <!-- CloudOnce -->
+                                <h4 class="idList idList-Internal">CloudOnce</h4>
+                                <ul>
+                                    <li>Unity 5 or later</li>
+                                </ul>
+
+                                <!-- Apple -->
+                                <h4 class="idList idList-GameCenter">Apple</h4>
+                                <ul>
+                                    <li>GameKit Framework</li>
+                                    <li>Key-value storage (for iCloud)</li>
+                                    <li><a href="https://support.apple.com/en-us/HT204230">System requirements for iCloud</a></li>
+                                </ul>
+                                
+                                <!-- Amazon -->
+                                <h4 class="idList idList-GameCircle">Amazon</h4>
+                                <ul>
+                                    <li>Android 2.3.3 (API 10) or later</li>
+                                </ul>
+                                
+                            </div>
+                            <div class="col-md-7">
+                                
+                                <!-- Google -->
+                                <h4 class="idList idList-PlayGames">Google</h4>
+                                <ul>
+                                    <li>Android 4.0 (API 14) or later</li>
+                                    <li>Android SDK Packages
+                                        <ul>
+                                            <li>Google Play services</li>
+                                            <li>Android Support Library</li>
+                                            <li>Local Maven repository for Support Libraries</li>
+                                            <li>Google Repository</li>
+                                            <li>Android 6.0 (API 23) (doesn't affect min SDK version)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Importing package -->
+                    <span class="anchor" id="import"></span>
+                    <section class="row docs-section">
+                        <h2>Importing the package</h2>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Start by importing the CloudOnce plugin into your project. Don't uncheck anything in the importer,
+                                    even if there are platforms you aren't using, as this may lead to the plugin behaving incorrectly.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive gray-border image-shadow-small" src="img/packageImport.png" alt="Package import screenshot">
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- CloudOnce Editor -->
+                    <span class="anchor" id="editor-window"></span>
+                    <div class="row docs-section">
+                        <section class="docs-section">
+                            <h2>CloudOnce editor</h2>
+                            <p>The CloudOnce Editor has been designed to look good with both the light and dark Unity editor skins. It is dockable and has a responsive
+                                design, so it works well both horizontally and vertically.</p>
+                            <p>You can open the Editor window by selecting "CloudOnce > Editor" from the Window dropdown menu. Unsaved changes will be marked on the
+                                respective tab as a * symbol. The "Discard changes" button will discard any unsaved changes you have made to the configuration.</p>
+                            <p>The "Save Configuration" button naturally saves the configuration. But it also generates some C# classes that makes implementation much
+                                easier for achievements, leaderboards and any cloud variables you have declared in the editor. You'll find more information about these
+                                classes in the <a href="#achievements">Achievements</a>, <a href="#leaderboards">Leaderboards</a> and <a href="#cloud-save">Cloud Save</a>
+                                sections of this guide.</p>
+                        </section>
+                        <span class="anchor" id="editor-settings"></span>
+                        <section class="docs-section">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>Settings</h3>
+                                    <section>
+                                        <h4>Supported platforms</h4>
+                                        <p>Here you can toggle on/off each of the platforms CloudOnce supports.
+                                            Enable the platforms you are releasing to.</p>
+                                    </section>
+                                    <section>
+                                        <h4>Debug mode</h4>
+                                        <p>Activating the debug mode will enable debug logs. Recommended for debugging,
+                                            but should be disabled when building production builds.</p>
+                                    </section>
+                                    <section>
+                                        <h4>Android build platform</h4>
+                                        <p>Select current Android build platform. Only necessary when supporting both Google Play and Amazon.
+                                            It is very important that this setting is set correctly before building to an Android platform.</p>
+                                    </section>
+                                    <section>
+                                        <h4>Google Play Application ID setup</h4>
+                                        <p>If you are releasing on Google Play, you must run the Application ID setup. Enter the Application ID into the settings
+                                            section of the CloudOnce Editor, and click the "Run setup" button.</p>
+                                        <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/appID.png" alt="Editor Settings screenshot">
+                                        <p>You can find the Application ID in the Game Services section of Google's developer console, below the title of your game.
+                                            Be sure to save the configuration after you have run the setup so the editor will remember the ID.</p>
+                                    </section>
+                                    <section>
+                                        <h4>GameCircle API Key</h4>
+                                        <p>If you are releasing on Amazon GameCircle, you need to enter the API key from your GameCircle configuration here.
+                                            The Amazon documentation claims that it must be added to a text file, but this is not accurate.</p>
+                                    </section>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/editor02.png" alt="Editor Settings screenshot">
+                                </div>
+                            </div>
+                        </section>
+                        <span class="anchor" id="editor-cloud-ids"></span>
+                        <section class="docs-section">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>Cloud IDs</h3>
+                                    <section>
+                                        <h4>Achievement- &amp; leaderboard IDs</h4>
+                                        <p>Here you can set up all your achievements and leaderboards. For each platform you support, you'll need to
+                                            enter the ID from the respective platform's developer console. For each achievement/leaderboard you will need to choose
+                                            an internal ID as well. You will use the internal ID to refer to the achievement/leaderboard in your code.</p>
+                                        <p>For more information about implementing achievements and leaderboards, please refer to the <a href="#achievements">Achievements</a>
+                                            and <a href="#leaderboards">Leaderboards</a> sections.</p>
+                                    </section>
+                                    <section>
+                                        <h4>Allowed characters</h4>
+                                        <p>Each ID type has some limitations to what type of characters you can use. With the exception of the internal ID, these limitations
+                                            mirror the limitations set by each platform holder. The internal ID allowed characters mirror the C# limitations for properties.</p>
+                                        <ul class="list-unstyled">
+                                            <li class="idList idList-Internal">
+                                                <strong>Internal IDs</strong>
+                                                must start with a letter or an underscore (_). They can contain alphanumeric characters (A-Z, a-z, 0-9), hyphens (-) and underscores (_).
+                                            </li>
+                                            <li class="idList idList-GameCenter">
+                                                <strong>Apple Game Center IDs</strong> can contain alphanumeric characters (A-Z, a-z, 0-9), periods (.) and underscores (_).
+                                            </li>
+                                            <li class="idList idList-PlayGames">
+                                                <strong>Google Play Games IDs</strong> can contain alphanumeric characters (A-Z, a-z, 0-9), hyphens (-) and underscores (_).
+                                            </li>
+                                            <li class="idList idList-GameCircle">
+                                                <strong>Amazon GameCircle IDs</strong> can contain alphanumeric characters (A-Z, a-z, 0-9) and underscores (_).
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive gray-border image-shadow-small" src="img/editor03.png" alt="Editor Cloud IDs screenshot">
+                                </div>
+                            </div>
+                        </section>
+                        <span class="anchor" id="editor-cloud-vars"></span>
+                        <section>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>Cloud Variables</h3>
+                                    <section>
+                                        <h4>Declaring cloud variables</h4>
+                                        <p>On this tab you can declare all the variables you want to store in the cloud. All the most common variables are supported,
+                                            as well as a couple of special ones for storing <a href="#cloud-save-currencies">virtual currencies</a>.</p>
+                                        <p>For more information about implementing cloud saving, please refer to the <a href="#cloud-save">Cloud Save section</a>.</p>
+                                    </section>
+                                    <section>
+                                        <h4>Deleting test data</h4>
+                                        <p>Once you start testing cloud variables in the Unity editor, any test data you save will be stored in
+                                            <a href="http://docs.unity3d.com/ScriptReference/PlayerPrefs.html">PlayerPrefs</a>. The "Delete editor test data" button
+                                            will delete all the saved test data for your cloud variables. This is helpful when you need to reset the test data.</p>
+                                    </section>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive gray-border image-shadow-small" src="img/editor04.png" alt="Editor Cloud Variables screenshot">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <!-- Quick Start scripts -->
+                    <span class="anchor" id="quick-start"></span>
+                    <section class="row docs-section">
+                        <h2>Quick Start scripts</h2>
+                        <div class="row">
+                            <div class="col-md-8">
+                                
+                                <!-- Quick Start intro -->
+                                <p>CloudOnce comes with a few Quick Start scripts that handles some of the most common tasks you'll need.
+                                    They can all be accessed from the component menu in the Unity editor. If you are using a Unity editor that is older
+                                    than v4.6, the scripts that require the new GUI system will not be visible.</p>
+                                
+                                <!-- Initialize CloudOnce script -->
+                                <span class="anchor" id="init-script"></span>
+                                <section class="docs-section">
+                                    <h4>Initialize CloudOnce</h4>
+                                    <p>This script will initialize the current platform's game services and attempt to sign in the player. It can be placed on any
+                                        <a href="http://docs.unity3d.com/Manual/class-GameObject.html">GameObject</a> in the first scene that is loaded in your project.
+                                        You have to option to disable Cloud Save functionality here if you don't intend to use it for your game.</p>
+                                    <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/initializeScript.png" alt="Initialization script screenshot">
+                                </section>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive gray-border image-shadow-small" src="img/AddQuickStartScript.gif" alt="Add quick start script">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                
+                                <!-- Load Scene On Event script -->
+                                <span class="anchor" id="load-scene-script"></span>
+                                <section class="docs-section">
+                                    <h4>Load Scene On Event</h4>
+                                    <p>This script loads the defined scene when the chosen CloudOnce event is called. It can be placed on any
+                                        <a href="http://docs.unity3d.com/Manual/class-GameObject.html">GameObject</a>.</p>
+                                        <p>One use case for this script is if you have your loading screen as it's own scene, and you want to load a menu scene when
+                                            a CloudOnce event is called.</p>
+                                    <p class="alert alert-info">You must enter the filename of the scene that is to be loaded
+                                        (without ".unity"), and the scene must be first be added to Build Settings. You can press
+                                        <kbd><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></kbd> to open Build Settings.</p>
+                                    <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/loadSceneOnEventScript.png" alt="Load scene script screenshot">
+                                    <p> You have the option to load the scene with additive and/or async.
+                                        Please refer to the official Unity documentation about these advanced scene loading methods:
+                                        <a href="http://docs.unity3d.com/ScriptReference/Application.LoadLevelAsync.html">Application.LoadLevelAsync</a>,
+                                        <a href="http://docs.unity3d.com/ScriptReference/Application.LoadLevelAdditive.html">Application.LoadLevelAdditive</a>,
+                                        <a href="http://docs.unity3d.com/ScriptReference/Application.LoadLevelAdditiveAsync.html">Application.LoadLevelAdditiveAsync</a>.</p>
+                                </section>
+                                
+                                <!-- Deactivate On Event script -->
+                                <span class="anchor" id="deactivate-event-script"></span>
+                                <section class="docs-section">
+                                    <h4>Deactivate On Event</h4>
+                                    <p>This script deactivates the <a href="http://docs.unity3d.com/Manual/class-GameObject.html">GameObject</a> it is attached to when the chosen
+                                        CloudOnce event is called. A use case for this script is if you want to deactivate a loading screen when a CloudOnce event is called.</p>
+                                    <img class="img-responsive gray-border image-shadow-small extra-bottom-margin"
+                                         src="img/deactivateOnEventScript.png" alt="Deactivate On Event script screenshot">
+                                </section>
+                                
+                                <!-- Show Achievements Overlay script -->
+                                <span class="anchor" id="show-achievements-script"></span>
+                                <section class="docs-section">
+                                    <h4>Show Achievements Button</h4>
+                                    <p>This script opens the native achievements overlay for the current platform. It will not work in the Unity editor, only on mobile devices.
+                                        If the player is currently signed out, it will attempt to sign in the player.</p>
+                                    <p class="alert alert-info alert-center">This script will only work if placed on a button
+                                        created from the "GameObject > UI > Button" menu.</p>
+                                </section>
+                                
+                                <!-- Show Leaderboards Overlay script -->
+                                <span class="anchor" id="show-leaderboards-script"></span>
+                                <section class="docs-section">
+                                    <h4>Show Leaderboards Button</h4>
+                                    <p>This script opens the native leaderboards overlay for the current platform. It will not work in the Unity editor, only on mobile devices.
+                                        If the player is currently signed out, it will attempt to sign in the player.</p>
+                                    <p class="alert alert-info alert-center">This script will only work if placed on a button
+                                        created from the "GameObject > UI > Button" menu.</p>
+                                </section>
+                                
+                                <!-- Google Sign In/Out script -->
+                                <span class="anchor" id="google-sign-script"></span>
+                                <section class="docs-section">
+                                    <h4>Google Sign In/Out Button</h4>
+                                    <p>As stated in the <a href="http://developers.google.com/games/services/checklist">Quality Checklist for Google Play Games Services</a>,
+                                        you are required to provide players with both a sign-in option and a sign-out option.
+                                        This script is designed to provide both, with the same button.</p>
+                                    <p>It will update the text on a standard GUI button to "Sign in" if the player is currently signed out,
+                                        and "Sign out" when the player is signed in.</p>
+                                    <p class="alert alert-info alert-center">This script will only work if placed on a button
+                                        created from the "GameObject > UI > Button" menu.</p>
+                                </section>
+                                
+                                <!-- Deactivate If Not Google script -->
+                                <span class="anchor" id="google-deactivate-script"></span>
+                                <section class="docs-section">
+                                    <h4>Deactivate If Not Google</h4>
+                                    <p>This script deactivates the <a href="http://docs.unity3d.com/Manual/class-GameObject.html">GameObject</a> it is attached to if the current
+                                        platform is not Google Play. A use case for this script is when using the above <a href="#google-sign-script">Google Sign In/Out Button script</a>,
+                                        you will likely want the button to only be visible if playing on Google Play.</p>
+                                    <p>If you want the button to be visible when testing in the Unity editor, "Active In Editor" must be enabled. This can be useful to see how
+                                        a menu would look on Google Play, as opposed to other platforms. If you want to see the effect of switching this setting, you'll have to
+                                        restart the game, as the <a href="http://docs.unity3d.com/Manual/class-GameObject.html">GameObject</a> is deactivated in the
+                                        <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html">Awake method</a>.</p>
+                                    <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/deactivateIfNotGoogleScript.png"
+                                         alt="Deactivate If not Google script screenshot">
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Initialization -->
+                    <span class="anchor" id="init"></span>
+                    <section class="row docs-section">
+                        <h2>Initialization</h2>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p>To use CloudOnce, it must first be initialized. The easiest way to do this is to use the above
+                                    <a href="#init-script">Initialize CloudOnce Quick Start script</a>.</p>
+                                <p>The initialization first tries to sign the user into the current platform's native game services (Game Center/Play Games/GameCircle).
+                                    If the sign in is successful, it attempts to fetch progress details about any achievements and download any cloud data.
+                                    If the sign in fails, the system will fall back to using the local cached data. In this scenario you will be able to continue to use
+                                    the cloud variables, and the system will merge the local data with the cloud data at the next sign in.</p>
+                                <p>The above Quick Start scripts <a href="#load-scene-script">Load Scene On Event</a> and <a href="#deactivate-event-script">Deactivate On Event</a>
+                                    work well together with the <a href="#init-script">Initialize CloudOnce Quick Start script</a>.</p>
+                                <p>If you prefer to implement the initialization into one of your existing scripts, you must first add the using directive
+                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
+                                    and then use the method
+                                    <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
+                                    <code class="hl-code code-icon method-icon" data-lang="csharp">Cloud.<span class="hl-method">Initialize</span>()</code></a>
+                                    for initialization. It is recommended to call this method in an <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html">Awake method</a>.
+                                    To know when the initialization is complete you can subscribe to the event 
+                                    <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ad8c0ff352bece48d7ffb9dd2e59cebe2">
+                                        <code class="hl-code code-icon event-icon">Cloud.OnInitializeComplete</code></a>.</p>
+                                <p>If you don't intend to use Cloud Save in your game, you can disable it by adding <code class="language-csharp">false</code> as a parameter to the Initialize method,
+                                    like this: <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
+                                    <code class="hl-code code-icon method-icon">Cloud.<span class="hl-method">Initialize</span>(<span class="hl-keyword">false</span>)</code></a>.</p>
+                                <p>You also have to option of disabling auto sign-in and auto load in the Initialize method.</p>
+                                <span class="anchor" id="init-example-code"></span>
+                                <h4>Example code</h4>
+                                <p>This example code shows initialization of CloudOnce and subscribing to the event
+                                    <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ad8c0ff352bece48d7ffb9dd2e59cebe2">
+                                        <code class="hl-code code-icon event-icon">Cloud.OnInitializeComplete</code></a>.</p>
+                                <pre><code class="language-csharp">using Trollpants.CloudOnce;
+using UnityEngine;
+
+public class CloudOnceInitializer : MonoBehaviour
+{
+    private void Awake()
+    {
+        Cloud.OnInitializeComplete += CloudOnceInitializeComplete;
+        Cloud.Initialize();
+    }
+
+    public void CloudOnceInitializeComplete()
+    {
+        Cloud.OnInitializeComplete -= CloudOnceInitializeComplete;
+
+        // Do anything that requires CloudOnce to be initialized,
+        // for example disabling your loading screen
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Achievements -->
+                    <span class="anchor" id="achievements"></span>
+                    <section class="row docs-section">
+                        <h2>Achievements</h2>
+                        <div class="row">
+                            <div class="col-md-8">
+                                
+                                <!-- Why use achievements? -->
+                                <span class="anchor" id="achievements-why"></span>
+                                <h3>Why use achievements?</h3>
+                                <p>Achievements can be a great way to increase your users' engagement within your game. You can implement achievements in your game
+                                    to encourage players to experiment with features they might not normally use, or to approach your game with entirely different play styles.
+                                    Achievements can also be a fun way for players to compare their progress with each other and engage in light-hearted competition.</p>
+                                
+                                <!-- Achievement states -->
+                                <span class="anchor" id="achievements-states"></span>
+                                <h3>Achievement states</h3>
+                                <p>Achievements can be in one of three different states:</p>
+                                <ul>
+                                    <li>A <strong>hidden</strong> achievement means that details about the achievement are hidden from the player. The Game
+                                        services provides a generic placeholder description and icon for the achievement while it's in a hidden state. We
+                                        recommend making an achievement hidden if it contains a spoiler you don't want to reveal about your game too early
+                                        (for example, "Discover that you were a ghost all along!").</li>
+                                    <li>A <strong>revealed</strong> achievement means that the player knows about the achievement, but hasn't earned it yet. Most achievements
+                                        start in the revealed state.</li>
+                                    <li>An <strong>unlocked</strong> achievement means that the player has successfully earned the achievement. An achievement can be unlocked offline.
+                                        When the game comes online, it syncs with the Game services to update the achievement's unlocked state.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive" src="img/games_achievements.png" alt="Achievements logo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                
+                                <!-- Platform differences -->
+                                <span class="anchor" id="achievements-diff"></span>
+                                <h3>Platform differences</h3>
+                                <p>Hidden achievements work a bit differently on each platform:</p>
+                                <ul class="list-unstyled">
+                                    <li class="idList idList-GameCenter">
+                                        <strong>Apple Game Center</strong><br>
+                                        Hidden achievements are revealed if you use any of the three methods; Reveal, Increment or Unlock.
+                                    </li>
+                                    <li class="idList idList-PlayGames">
+                                        <strong>Google Play Game Services</strong><br>
+                                        You can reveal hidden achievements by using the Reveal method. They are also automatically revealed when they are unlocked.
+                                    </li>
+                                    <li class="idList idList-GameCircle">
+                                        <strong>Amazon GameCircle</strong><br>
+                                        Hidden achievements are only revealed when they are unlocked. Calling on the Reveal has no effect.
+                                    </li>
+                                </ul>
+                                <p>Keep this in mind when implementing your achievements.</p>
+                                
+                                <!-- Initial setup -->
+                                <span class="anchor" id="achievements-setup"></span>
+                                <h3>Initial setup</h3>
+                                <p>To add achievements to your game, you must first set them up in each <a href="#dev-consoles">platform's developer console</a> and in the
+                                    <a href="#editor-window">CloudOnce editor</a>. Please see the <a href="#editor-cloud-ids">Cloud IDs section</a> above for more
+                                    information about setting up achievements in the <a href="#editor-window">CloudOnce editor</a>.</p>
+                                <p class="alert alert-info">Each platform gives you a total of 1000 points
+                                    (or XP) to distribute on achievements. However, iOS and Amazon allows a maximum of 100 points per achievement, have this
+                                    in mind when distributing these points.</p>
+                                
+                                <!-- Implementation -->
+                                <span class="anchor" id="achievements-impl"></span>
+                                <h3>Implementation</h3>
+                                <p>After you have set up all your achievements in the <a href="#editor-window">CloudOnce editor</a>, it will generate a static class called
+                                    Achievements. This class allows you to increment, reveal and unlock your achievements. To access this class in your scripts you must
+                                    first add the using directive
+                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
+                                    After that each achievement can be accessed like this <code class="language-csharp">Achievements.YourInternalID</code>.
+                                    Here is a code example where you see the syntax for all three achievement methods:</p>
+                                <pre><code class="language-csharp">void GameOver()
+{
+    // Report on achievements
+    Achievements.Score250.Increment(newScore, 250);
+
+    if (_didAmazingThing)
+    {
+        Achievements.IsAmazing.Unlock();
+        Achievements.IsMoreAmazing.Reveal();
+    }
+}</code></pre>
+                                <p class="alert alert-info">Don’t worry about calling these methods if the achievements
+                                    are already unlocked, etc. The states of all the achievements are known before uploading progress, and the methods will ignore the call
+                                    if there's no change.</p>
+                                <h4>Advanced methods</h4>
+                                <p>If you need more flexibility than what the generated Achievements class can offer, there are equivalent methods that also take the
+                                    achievement ID as a <code class="language-csharp">string</code> parameter. Note that this is not the internal ID, but the platform ID
+                                    for the current platform. Here is the same code example as above with the advanced methods:</p>
+                                <pre class="docs-section"><code class="language-csharp">void GameOver()
+{
+    // Report on achievements
+    Cloud.Achievements.IncrementAchievement(platformID, newScore, 250);
+
+    if (_didAmazingThing)
+    {
+        Cloud.Achievements.RevealAchievement(platformID);
+        Cloud.Achievements.UnlockAchievement(platformID);
+    }
+}</code></pre>
+                                
+                                <!-- Native Achievements Overlay -->
+                                <span class="anchor" id="achievements-overlay"></span>
+                                <h3>Native Achievements Overlay</h3>
+                                <p>The easiest way to display the native achievements overlay, is to use the above
+                                    <a href="#show-achievements-script">Show Achievements Button</a> Quick Start script.</p>
+                                <p>If you prefer to open the native overlay from one of your existing scripts, you must first add the using directive
+                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
+                                    and then use the method
+                                    <code class="hl-code code-icon method-icon">Cloud.Achievements.<span class="hl-method">ShowOverlay</span>()</code>.</p>
+                                <p>
+                                    When the native overlay is showing, your game will be paused and the Unity event
+                                    <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.OnApplicationPause.html">
+                                        <code class="hl-code code-icon event-icon">MonoBehaviour.OnApplicationPause(bool)</code>
+                                    </a> is called.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Leaderboards -->
+                    <span class="anchor" id="leaderboards"></span>
+                    <section class="row docs-section">
+                        <h2>Leaderboards</h2>
+                        <div class="row">
+                            <div class="col-md-8">
+
+                                <!-- Why use leaderboards? -->
+                                <span class="anchor" id="leaderboards-why"></span>
+                                <h3>Why use leaderboards?</h3>
+                                <p>Leaderboards can be a fun way to drive competition among your players. Hardcore players can fight for the top spots on the
+                                    public leaderboard, while casual players can compare their scores with their friends.</p>
+                                
+                                <!-- Initial setup -->
+                                <span class="anchor" id="leaderboards-setup"></span>
+                                <h3>Initial setup</h3>
+                                <p>To add leaderboards to your game, you must first set them up in each <a href="#dev-consoles">platform's developer console</a> and in the
+                                    <a href="#editor-window">CloudOnce editor</a>. Please see the <a href="#editor-cloud-ids">Cloud IDs section</a> above for more
+                                    information about setting up leaderboards in the <a href="#editor-window">CloudOnce editor</a>.</p>
+
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive" src="img/games_leaderboards.png" alt="Leaderboards logo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+
+                                <!-- Implementation -->
+                                <span class="anchor" id="leaderboards-impl"></span>
+                                <h3>Implementation</h3>
+                                <p>After you have set up all your leaderboards in the <a href="#editor-window">CloudOnce editor</a>, it will generate a static class called
+                                    Leaderboards. This class allows you to submit scores to your leaderboards. To access this class in your scripts you must
+                                    first add the using directive
+                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
+                                    After that each leaderboard can be accessed like this <code class="language-csharp">Leaderboards.YourInternalID</code>.
+                                    Here is a code example where you see the syntax:</p>
+                                <pre class="docs-section"><code class="language-csharp">void GameOver()
+{
+    // Submit to leaderboard
+    Leaderboards.HighScores.SubmitScore(score);
+}</code></pre>
+                                <p class="alert alert-info">Even if the player has not set a new high score, you should still submit the score to the leaderboard.
+                                    This is for seeing daily and weekly scores, etc.</p>
+                                <h4>Advanced method</h4>
+                                <p>If you need more flexibility than what the generated Leaderboards class can offer, there is an equivalent method that also takes the
+                                    leaderboard ID as a <code class="language-csharp">string</code> parameter. Note that this is not the internal ID, but the platform ID
+                                    for the current platform. Here is the same code example as above with the advanced method:</p>
+                                <pre><code class="language-csharp">void GameOver()
+{
+    // Submit to leaderboard
+    Cloud.Leaderboards.SubmitScore(platformID, score);
+}</code></pre>
+                                
+                                <!-- Native Leaderboards Overlay -->
+                                <span class="anchor" id="leaderboards-overlay"></span>
+                                <h3>Native Leaderboards Overlay</h3>
+                                <p>The easiest way to display the native leaderboards overlay, is to use the above
+                                    <a href="#show-leaderboards-script">Show Leaderboards Button</a> Quick Start script.</p>
+                                <p>If you prefer to open the native overlay from one of your existing scripts, you must first add the using directive
+                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
+                                    and then use the method
+                                    <code class="hl-code code-icon method-icon">Cloud.Leaderboards.<span class="hl-method">ShowOverlay</span>()</code>.</p>
+                                <p>
+                                    When the native overlay is showing, your game will be paused and the Unity event
+                                    <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.OnApplicationPause.html">
+                                        <code class="hl-code code-icon event-icon">MonoBehaviour.OnApplicationPause(bool)</code>
+                                    </a> is called.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Cloud Save -->
+                    <span class="anchor" id="cloud-save"></span>
+                    <section class="row docs-section">
+                        <h2>Cloud Save</h2>
+                        
+                        <!-- Why use cloud save? -->
+                        <section class="row docs-section">
+                            <div class="col-md-8">
+                                <span class="anchor" id="cloud-save-why"></span>
+                                <h3>Why use cloud save?</h3>
+                                <p>Cloud Save makes it possible to synchronize a player's game data across multiple devices. For example, if you have a game that
+                                    runs on a phone, you can use the cloud saving to allow a player to continue playing on a tablet without losing any of their progress.
+                                    It can also ensure that a player's game play continues from where it left off even if their device is lost, destroyed, or traded in
+                                    for a newer model.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-responsive" src="img/games_savedgames_green.png" alt="Cloud Save logo">
+                            </div>
+                        </section>
+                        
+                        <!-- Initial setup -->
+                        <section class="docs-section">
+                            
+                            <!-- Header -->
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span class="anchor" id="cloud-save-setup"></span>
+                                    <h3>Initial setup</h3>
+                                </div>
+                            </div>
+                        
+                            <!-- Dev consoles -->
+                            <section class="row docs-section">
+                                <div class="col-xs-12">
+                                    <h4>Developer consoles</h4>
+                                    <p>Before implementing Cloud Save, some initial setup of the developer consoles is necessary.</p>
+                                    <ul class="list-unstyled">
+                                        <li class="idList idList-GameCenter">
+                                            <strong>Apple Game Center</strong><br>
+                                            Cloud Save on iOS requires you to set up an <a href="https://developer.apple.com/account/ios/identifiers/iCloudContainer/">iCloud Container.</a>
+                                        </li>
+                                        <li class="idList idList-PlayGames">
+                                            <strong>Google Play Game Services</strong><br>
+                                            You must turn on the “Saved Games” option, found on the Game Details page in <a href="https://play.google.com/apps/publish">Game Services</a>.<br>
+                                            <img style="margin-bottom:10px; margin-top:5px;" class="img-responsive gray-border image-shadow-small"
+                                                 src="img/savedGames.png" alt="Saved Games screenshot">
+                                            <p class="alert alert-warning">In some cases it can take up to 24 hours after
+                                                activating "Saved Games" before it is ready for testing.<br>
+                                                If you attempt to initialize CloudOnce with Cloud Save active on Google Play before "Saved Games" is ready,
+                                                the initialization will crash.</p>
+                                        </li>
+                                        <li class="idList idList-GameCircle">
+                                            <strong>Amazon GameCircle</strong><br>
+                                            No extra setup needed for Amazon GameCircle.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        
+                            <!-- CloudOnce editor -->
+                            <section class="row">
+                                <div class="col-md-8">
+                                    <h4>CloudOnce editor</h4>
+                                    <p>The easiest way to add all your cloud variables is via the <a href="#editor-cloud-vars">Cloud Variables section</a> of the
+                                        <a href="#editor-window">CloudOnce editor</a>. The fields that needs to be filled out are:</p>
+                                    <dl style="margin-bottom:0px">
+                                        <dt>Internal ID</dt>
+                                        <dd>A unique identifier used to identify this particular variable.</dd>
+                                        <dt>Variable Type</dt>
+                                        <dd>For information about each supported cloud variable type, please refer to the respective API documentation:
+                                            <ul class="list-inline" style="margin-bottom:0px">
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_int.html">CloudInt</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html">CloudCurrencyInt</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_float.html">CloudFloat</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html">CloudCurrencyFloat</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html">CloudBool</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html">CloudString</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_double.html">CloudDouble</a></li>
+                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_u_int.html">CloudUInt</a></li>
+                                            </ul></dd>
+                                        <dt>Starting Value</dt>
+                                        <dd>The initial value for the variable.</dd>
+                                        <dt>Persistence Type</dt>
+                                        <dd>The method of conflict resolution to be used in case of a data conflict. Can happen if the data is altered by a different device.
+                                            If you use Highest, you will only be able to set a higher number than the current one. Lowest works the opposite way and Latest
+                                            works just like a regular variable. Special cases:<br>
+                                            <ul style="margin-bottom:0px">
+                                                <li>For <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html">CloudBool</a>
+                                                    Highest will prefer <code class="language-csharp">true</code> and Lowest will prefer <code class="language-csharp">false</code>.</li>
+                                                <li>For <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html">CloudString</a>
+                                                    Highest will prefer the longest <code class="language-csharp">string</code> and Lowest will prefer the shortest
+                                                    <code class="language-csharp">string</code>.</li>
+                                                <li>The <a href="#cloud-save-currencies">currency types</a> has special conflict resolution, so there is no need to select
+                                                    a persistence type for them.</li>
+                                            </ul>
+                                        </dd>
+                                        <dt>Allow Negative</dt>
+                                        <dd>The <a href="#cloud-save-currencies">currency types</a> require you to select if the currency is allowed to be negative.</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive gray-border image-shadow-small" src="img/editor05.png" alt="Cloud Variables screenshot">
+                                </div>
+                            </section>
+                        </section>
+                        
+                        <!-- Virtual currencies -->
+                        <section class="row docs-section">
+                            <div class="col-xs-12">
+                                <span class="anchor" id="cloud-save-currencies"></span>
+                                <h3>Virtual currencies</h3>
+                                <p class="language-csharp">When dealing with virtual currencies in games, one has to be extra careful. We have special variables for these:
+                                    <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html">CloudCurrencyInt</a> and
+                                    <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html">CloudCurrencyFloat</a>. These variables
+                                    have been designed so that the user will never lose any of their acquired currency due to e.g. synchronization problems between devices.
+                                    All additions and subtractions made to a currency are stored as two sums for each device the user has connected to your game. When checking
+                                    the balance for a currency, the sum of these transactions are returned. The conflict resolution system is based on this article:
+                                    <a href="http://developer.android.com/training/cloudsave/conflict-res.html">Resolving Cloud Save Conflicts</a></p>
+                            </div>
+                        </section>
+                        
+                        <!-- Implementation -->
+                        <section class="row docs-section">
+                            <div class="col-xs-12">
+                                <span class="anchor" id="cloud-save-impl"></span>
+                                <h3>Implementation</h3>
+                                <p>After you have set up all your cloud variables in the <a href="#editor-window">CloudOnce editor</a>, it will generate a static class called
+                                    CloudVariables. This class gives you access to all your cloud variables. To access this class in your scripts you must
+                                    first add the using directive
+                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
+                                    After that each cloud variable
+                                    can be accessed like this <code class="language-csharp">CloudVariables.YourInternalID</code>. Here is a code example where you see the syntax:</p>
+                                <pre class="docs-section"><code class="language-csharp">void GoldPickup()
+{
+    CloudVariables.GoldCoins++;
+}
+
+void PurchaseCoolHat()
+{
+    if (CloudVariables.GoldCoins >= 50)
+    {
+        CloudVariables.GoldCoins -= 50;
+        Cloud.Storage.Save();
+        Debug.Log("CoolHat purchased!");
+    }
+    else
+    {
+        Debug.Log("Can't afford CoolHat!");
+    }
+}</code></pre>
+                                <p class="alert alert-info alert-center">If you store some of your data in JSON format, you should obscure the JSON string before
+                                    saving it to a CloudString. For example converting it to a base64 string. This is because CloudOnce saves all data as JSON,
+                                    and there have been cases where deserialization gets confused and cloud load fails.</p>
+                                
+                                <!-- Advanced implementation -->
+                                <section class="docs-section">
+                                    <h4>Advanced implementation</h4>
+                                    <p>If you need more flexibility than what the generated CloudVariables class can offer or simply want to declare the cloud
+                                        variables in one of your existing scripts, this method of implementation is for you.</p>
+                                    <p>First add the using directive
+                                        <a href="api-docs/namespace_trollpants_1_1_cloud_once_1_1_cloud_prefs.html">
+                                            <code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce.CloudPrefs</code></a>.
+                                        You can then declare cloud variables like this:</p>
+                                    <p><code class="language-csharp">CloudInt yourInt = new CloudInt("uniqueID", PersistenceType.persistenceType);</code></p>
+                                    <p>Refer to the <a href="http://www.trollpants.com/cloudonce/api-docs/namespace_trollpants_1_1_cloud_once_1_1_cloud_prefs.html">API documentation</a>
+                                        for information on each cloud variable type.</p>
+                                    <p>Declaring the cloud variables this way will enable you to reset cloud variables back to their starting value, using the Reset method:
+                                        <code class="hl-code code-icon method-icon">yourInt.<span class="hl-method">Reset</span>();</code></p>
+                                    <p class="alert alert-warning alert-center">Make sure you don't declare any cloud variables as local variables within your methods,
+                                        this will mess up the save system.</p>
+                                    <p><strong>Code example</strong> of advanced cloud save implementaion:</p>
+                                    <pre class="docs-section"><code class="language-csharp">using Trollpants.CloudOnce;
+using Trollpants.CloudOnce.CloudPrefs;
+using UnityEngine;
+
+public class AdvancedCloudSaveExample : MonoBehaviour
+{
+    private CloudInt highScore = new CloudInt("HighScore", PersistenceType.Highest);
+    private CloudInt playerDeaths = new CloudInt("PlayerDeaths", PersistenceType.Highest);
+
+    private int HighScore
+    {
+        get { return highScore.Value; }
+        set { highScore.Value = value; }
+    }
+
+    private int PlayerDeaths
+    {
+        get { return playerDeaths.Value; }
+        set { playerDeaths.Value = value; }
+    }
+
+    public void GameOver(int score)
+    {
+        PlayerDeaths++;
+        Debug.Log("Player has now died " + PlayerDeaths + " times.");
+        Debug.Log("The player got " + score + " score.");
+        if (score > HighScore)
+        {
+            Debug.Log("New high score!");
+        }
+
+        // Can set HighScore regardless if the new score is higher or not.
+        // Since HighScore uses PersistenceType.Highest, lower values will be ignored.
+        HighScore = score;
+        Cloud.Storage.Save();
+    }
+}</code></pre>
+                                </section>
+                                
+                                <!-- Loading -->
+                                <section class="docs-section">
+                                    <h4>Loading</h4>
+                                    <p>The load method <code class="hl-code code-icon method-icon">Cloud.Storage.<span class="hl-method">Load</span>()</code> is called
+                                        automatically when the user signs in on the current platform. To call a method when new cloud data is received,
+                                        subscribe to this event:
+                                        <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ae7678a19c1fbdafd65fc6e8d39c427a1">
+                                            <code class="hl-code code-icon event-icon">Cloud.OnNewCloudValues</code></a>. A common example is to update
+                                        GUI elements after new cloud data is received.</p>
+                                    <p>The load method can be called at any time after initialization to check for new cloud data, but with most games, the automatic load
+                                        after initialization will be enough.</p>
+                                </section>
+                                
+                                <!-- AutoLoad -->
+                                <section class="docs-section">
+                                    <h4>AutoLoad</h4>
+                                    <p>CloudOnce contains an AutoLoad system for special cases where you want the game to periodically check for new cloud data. The system is
+                                        disabled by default. To activate it, run this line of code once:</p>
+                                    <p><code class="language-csharp">Cloud.AutoLoadInterval = Interval.Every60Seconds;</code></p>
+                                    <p>You can choose from these intervals: 30, 60, 90, 120, 300 and 600 seconds.</p>
+                                    <p class="alert alert-info alert-center">This feature increases the Internet traffic your game produces,
+                                        so only use it if your game really needs it.</p>
+                                </section>
+                                
+                                <!-- Saving -->
+                                <section class="docs-section">
+                                    <h4>Saving</h4>
+                                    <p>To upload the cloud variables to the cloud, use this method:
+                                        <code class="hl-code code-icon method-icon">Cloud.Storage.<span class="hl-method">Save</span>()</code></p>
+                                    <p>It stores the data locally and tries to upload it to the cloud if the user is signed in. Try to not call this too often as it is
+                                        performance heavy, and you will want to limit the amount of Internet traffic your game produces.</p>
+                                    <p class="alert alert-info alert-center">Think about what data really needs to be cloud data and what can just be saved locally. For example:
+                                        Option settings usually doesn’t need to be saved to the cloud.</p>
+                                </section>
+                            </div>
+                        </section>
+                        <a class="back-to-top" style="padding-left:0px;margin-left:0px;" href="#top">Back to top</a>
+                    </section>
+                </div>
+                
+                <!-- Sidebar navigation -->
+                <div class="col-md-3 scrollspy" role="complementary">
+                    <nav class="sidebar hidden-print hidden-xs hidden-sm" data-spy="affix" data-offset-top="258" data-offset-bottom="157">
+                        <ul class="nav sidenav">
+                            <li><a href="#dev-consoles">Developer consoles</a></li>
+                            <li><a href="#requirements">Requirements</a></li>
+                            <li><a href="#import">Importing the package</a></li>
+                            <li>
+                                <a href="#editor-window">CloudOnce editor</a>
+                                <ul class="nav">
+                                    <li><a href="#editor-settings">Settings</a></li>
+                                    <li><a href="#editor-cloud-ids">Cloud IDs</a></li>
+                                    <li><a href="#editor-cloud-vars">Cloud Variables</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#quick-start">Quick Start scripts</a>
+                                <ul class="nav">
+                                    <li><a href="#init-script">Initialize CloudOnce</a></li>
+                                    <li><a href="#load-scene-script">Load Scene On Event</a></li>
+                                    <li><a href="#deactivate-event-script">Deactivate On Event</a></li>
+                                    <li><a href="#show-achievements-script">Show Achievements</a></li>
+                                    <li><a href="#show-leaderboards-script">Show Leaderboards</a></li>
+                                    <li><a href="#google-sign-script">Google Sign In/Out</a></li>
+                                    <li><a href="#google-deactivate-script">Deactivate If Not Google</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#init">Initialization</a>
+                                <ul class="nav">
+                                    <li><a href="#init-example-code">Example code</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#achievements">Achievements</a>
+                                <ul class="nav">
+                                    <li><a href="#achievements-why">Why use achievements?</a></li>
+                                    <li><a href="#achievements-states">Achievement states</a></li>
+                                    <li><a href="#achievements-diff">Platform differences</a></li>
+                                    <li><a href="#achievements-setup">Initial setup</a></li>
+                                    <li><a href="#achievements-impl">Implementation</a></li>
+                                    <li><a href="#achievements-overlay">Native Overlay</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#leaderboards">Leaderboards</a>
+                                <ul class="nav">
+                                    <li><a href="#leaderboards-why">Why use leaderboards?</a></li>
+                                    <li><a href="#leaderboards-setup">Initial setup</a></li>
+                                    <li><a href="#leaderboards-impl">Implementation</a></li>
+                                    <li><a href="#leaderboards-overlay">Native Overlay</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#cloud-save">Cloud Save</a>
+                                <ul class="nav">
+                                    <li><a href="#cloud-save-why">Why use cloud save?</a></li>
+                                    <li><a href="#cloud-save-setup">Initial setup</a></li>
+                                    <li><a href="#cloud-save-currencies">Virtual currencies</a></li>
+                                    <li><a href="#cloud-save-impl">Implementation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class="back-to-top" href="#top">Back to top</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="container page-footer">
+                <div class="row">
+                    <ul class="list-inline">
+                        <li><a href="gettingStarted.html"><i class="nav-icon glyphicon glyphicon-education"></i>Getting Started</a></li>
+                        <li><a href="./api-docs/index.html"><i class="nav-icon glyphicon glyphicon-book"></i>API Docs</a></li>
+                        <li><a href="index.html#content"><i class="nav-icon glyphicon glyphicon-info-sign"></i>About</a></li>
+                        <li><a href="mailto:info@trollpants.com"><i class="nav-icon glyphicon glyphicon-envelope"></i>Contact</a></li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Trollpants Game Studio 2015. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        <!-- Prism Code Highlighting -->
+        <script src="js/prism.js"></script>
+
+    </body>
+
+</html>

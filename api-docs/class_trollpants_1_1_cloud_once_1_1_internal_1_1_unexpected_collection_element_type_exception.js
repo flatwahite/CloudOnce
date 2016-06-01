@@ -1,0 +1,4 @@
+var class_trollpants_1_1_cloud_once_1_1_internal_1_1_unexpected_collection_element_type_exception =
+[
+    [ "UnexpectedCollectionElementTypeException", "class_trollpants_1_1_cloud_once_1_1_internal_1_1_unexpected_collection_element_type_exception.html#a0c2acdd8008f62aaddd4b3340748314d", null ]
+];

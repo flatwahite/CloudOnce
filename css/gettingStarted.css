@@ -1,0 +1,122 @@
+body {
+    position: relative
+}
+
+h2 {
+    font-size: 2.8em;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    text-shadow: 1.8px 1.8px 2px rgba(0, 0, 0, 0.3)
+}
+
+h3 {
+    font-size: 2.25em;
+    margin-top: 2px;
+    text-shadow: 1.4px 1.4px 1px rgba(0, 0, 0, 0.3)
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-top: 2px;
+    text-shadow: 1.2px 1.2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.hl-code {
+    border: 1px solid #E1E1E8;
+    background-color: #F7F7F9;
+    color: black
+}
+
+.hl-keyword {
+    color: #0000ff
+}
+
+.hl-method {
+    color: #2b91af
+}
+
+.docs-section {
+    margin-bottom: 20px
+}
+
+.subpage-header {
+    padding-top: 55px;
+    padding-bottom: 35px;
+    color: #f8f8f8;
+    background-size: cover
+}
+
+.getting-started-header,
+.initial-setup-header {
+    background: url(../img/header-01.png) no-repeat center center
+}
+
+.icon-large {
+    padding-right: 20px;
+    top: 10px
+}
+
+.idList {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 24px 24px;
+    padding-left: 35px
+}
+
+.idList-Internal {
+    background-image: url(../img/CloudOnceIconBlack.png);
+    margin-bottom: 10px
+}
+
+.idList-GameCenter {
+    background-image: url(../img/GameCenterIcon.png);
+    margin-bottom: 10px
+}
+
+.idList-PlayGames {
+    background-image: url(../img/PlayGamesIcon.png);
+    margin-bottom: 10px
+}
+
+.idList-GameCircle {
+    background-image: url(../img/GameCircleIcon.png)
+}
+
+.code-icon {
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px
+}
+
+.method-icon {
+    background-image: url(../img/methodIcon.png)
+}
+
+.namespace-icon {
+    background-image: url(../img/namespaceIcon.png)
+}
+
+.event-icon {
+    background-image: url(../img/eventIcon.png)
+}
+
+.alert-warning {
+    background-image: url(../img/warning-icon.png);
+}
+
+.alert-info {
+    background-image: url(../img/information-icon.png);
+}
+
+.alert {
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+    padding-left: 42px;
+}
+
+.alert-center {
+    background-position: 5px center !important
+}

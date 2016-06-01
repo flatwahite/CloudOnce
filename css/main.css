@@ -1,0 +1,106 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif
+}
+
+.intro-message > h1,
+.subpage-intro-message > h1 {
+    margin: 0;
+    font-size: 6.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    font-family: "walkway_boldregular"
+}
+
+.intro-message > h3,
+.subpage-intro-message > h3 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 2em;
+    text-shadow: 1.3px 1.3px 1.3px rgba(0, 0, 0, 0.6)
+}
+
+.anchor {
+    display: block;
+    height: 50px;
+    /*same height as header*/
+    margin-top: -50px;
+    /*same height as header*/
+    visibility: hidden
+}
+
+.nav-logo {
+    display: inline !important;
+    height: 50px;
+    padding: 2px 5px 10px 5px
+}
+
+.navbar-brand {
+    padding-top: 4px;
+    padding-bottom: 0px;
+    font-family: "walkway_boldregular";
+    font-size: 2.25em
+}
+
+.nav-icon {
+    padding-right: 8px
+}
+
+.image-shadow {
+    box-shadow: 1px 2px 10px #999999
+}
+
+.image-shadow-small {
+    box-shadow: 0.5px 1px 5px #999999
+}
+
+.gray-border {
+    border: 1px solid #999999
+}
+
+.page-footer {
+    padding: 50px 0
+}
+
+.lead {
+    font-size: 1.3em
+}
+
+#skippy {
+    display: block;
+    padding: 1em;
+    outline: 0
+}
+
+#skippy .skiplink-text {
+    padding: .5em;
+    outline: 1px dotted
+}
+
+#content:focus {
+    outline: 0
+}
+
+@media (min-width: 992px) {
+    .extra-bottom-margin {
+        margin-bottom: 20px
+    }
+}
+
+@font-face {
+    font-family: 'walkway_boldregular';
+    src: url('../fonts/Walkway_Bold-webfont.eot');
+    src: url('../fonts/Walkway_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Walkway_Bold-webfont.woff') format('woff'), url('../fonts/Walkway_Bold-webfont.ttf') format('truetype'), url('../fonts/Walkway_Bold-webfont.svg#walkway_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}

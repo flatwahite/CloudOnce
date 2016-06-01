@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['achievementsbutton',['AchievementsButton',['../class_trollpants_1_1_cloud_once_1_1_quick_start_1_1_achievements_button.html',1,'Trollpants::CloudOnce::QuickStart']]],
+  ['activateguestusermode',['ActivateGuestUserMode',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#af2cfd0fc1249c4a3f25533176bdd20b8',1,'Trollpants::CloudOnce::Internal::Providers::GooglePlayGamesCloudProvider']]],
+  ['additions',['Additions',['../class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html#a14b5ec160f29caeab5873878056f20c9',1,'Trollpants.CloudOnce.CloudPrefs.CloudCurrencyInt.Additions()'],['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_currency_value.html#afb94f46e52afe975b7d68810afa5e841',1,'Trollpants.CloudOnce.Internal.CurrencyValue.Additions()'],['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_currency.html#a635f4aba848998f8cd7dbe1a4d5e762a',1,'Trollpants.CloudOnce.Internal.PersistentCurrency.Additions()']]],
+  ['allownegative',['AllowNegative',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_currency.html#ac7bf1d1ce55b666bcb8aadad2a78f66b',1,'Trollpants::CloudOnce::Internal::PersistentCurrency']]],
+  ['amazonachievementutils',['AmazonAchievementUtils',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_utils_1_1_amazon_achievement_utils.html',1,'Trollpants::CloudOnce::Internal::Utils']]],
+  ['amazoncloudprovider',['AmazonCloudProvider',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html',1,'Trollpants::CloudOnce::Internal::Providers']]],
+  ['amazonid',['AmazonId',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a8c954bdde0b7a82e4bf99a97837f6963',1,'Trollpants::CloudOnce::Internal::Editor::Data::PlatformIdData']]],
+  ['amazonleaderboardutils',['AmazonLeaderboardUtils',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_utils_1_1_amazon_leaderboard_utils.html',1,'Trollpants::CloudOnce::Internal::Utils']]],
+  ['amazonwhispersyncwrapper',['AmazonWhisperSyncWrapper',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_amazon_whisper_sync_wrapper.html',1,'Trollpants::CloudOnce::Internal::Providers']]],
+  ['androidbuildplatform',['AndroidBuildPlatform',['../namespace_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_data.html#ab31da31b8d4e23ac2df9ceef4fe8e0e6',1,'Trollpants::CloudOnce::Internal::Editor::Data']]],
+  ['androidmanifestmodifier',['AndroidManifestModifier',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_android_manifest_modifier.html',1,'Trollpants::CloudOnce::Internal::Editor::Utils']]],
+  ['androidsetup',['AndroidSetup',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings_1_1_android_setup.html',1,'Trollpants::CloudOnce::Internal::Editor::Utils::GPGSStrings']]],
+  ['appleachievementutils',['AppleAchievementUtils',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_utils_1_1_apple_achievement_utils.html',1,'Trollpants::CloudOnce::Internal::Utils']]],
+  ['appleid',['AppleId',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a182b60858b2298e45e55c5c104583788',1,'Trollpants::CloudOnce::Internal::Editor::Data::PlatformIdData']]],
+  ['appleleaderboardutils',['AppleLeaderboardUtils',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_utils_1_1_apple_leaderboard_utils.html',1,'Trollpants::CloudOnce::Internal::Utils']]],
+  ['autoadddefinesymbols',['AutoAddDefineSymbols',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_auto_add_define_symbols.html',1,'Trollpants::CloudOnce::Internal::Editor::Utils']]]
+];

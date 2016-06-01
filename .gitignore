@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+*.sln
+*.csproj
+
+# Unity3D
+Library/
+source/PluginDev/ProjectSettings/
+Temp/
