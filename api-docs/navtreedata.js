@@ -25,8 +25,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html#a2b78229c5929a0f8f6985bfd0453faa5",
-"class_trollpants_1_1_cloud_once_1_1_quick_start_1_1_leaderboards_button.html"
+"class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html#a3457f9d096eb64afc1b5a5a9bb0dd349",
+"class_cloud_once_1_1_quick_start_1_1_leaderboards_button.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['additions',['Additions',['../class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html#a14b5ec160f29caeab5873878056f20c9',1,'Trollpants.CloudOnce.CloudPrefs.CloudCurrencyInt.Additions()'],['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_currency_value.html#afb94f46e52afe975b7d68810afa5e841',1,'Trollpants.CloudOnce.Internal.CurrencyValue.Additions()'],['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_currency.html#a635f4aba848998f8cd7dbe1a4d5e762a',1,'Trollpants.CloudOnce.Internal.PersistentCurrency.Additions()']]],
-  ['allownegative',['AllowNegative',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_persistent_currency.html#ac7bf1d1ce55b666bcb8aadad2a78f66b',1,'Trollpants::CloudOnce::Internal::PersistentCurrency']]],
-  ['amazonid',['AmazonId',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a8c954bdde0b7a82e4bf99a97837f6963',1,'Trollpants::CloudOnce::Internal::Editor::Data::PlatformIdData']]],
-  ['appleid',['AppleId',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a182b60858b2298e45e55c5c104583788',1,'Trollpants::CloudOnce::Internal::Editor::Data::PlatformIdData']]]
+  ['additions',['Additions',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html#aba6be48a0b9a56363869fb0558c9879b',1,'CloudOnce.CloudPrefs.CloudCurrencyInt.Additions()'],['../class_cloud_once_1_1_internal_1_1_currency_value.html#a02f0ce88644a1c2a0b94b114b0c4e06a',1,'CloudOnce.Internal.CurrencyValue.Additions()'],['../class_cloud_once_1_1_internal_1_1_persistent_currency.html#ab07b8f6d1beb2e6252d27021c2303d97',1,'CloudOnce.Internal.PersistentCurrency.Additions()']]],
+  ['allownegative',['AllowNegative',['../class_cloud_once_1_1_internal_1_1_persistent_currency.html#a82b2b1d2b6245c16fb229c24ac71b9cd',1,'CloudOnce::Internal::PersistentCurrency']]],
+  ['amazonid',['AmazonId',['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#ae824022998b7c345739f39cc6ef57b5e',1,'CloudOnce::Internal::Editor::Data::PlatformIdData']]],
+  ['appleid',['AppleId',['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a0bd58612137cce09e26067b4edc21163',1,'CloudOnce::Internal::Editor::Data::PlatformIdData']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['persistencetype',['PersistenceType',['../namespace_trollpants_1_1_cloud_once.html#aeb2bd3d42b6853b30d8521fecec3ccf3',1,'Trollpants::CloudOnce']]]
+  ['persistencetype',['PersistenceType',['../namespace_cloud_once.html#a5becbb78b34ee3ae2162da0eb0152164',1,'CloudOnce']]]
 ];

@@ -155,7 +155,7 @@
                                         <ul>
                                             <li>Google Play services</li>
                                             <li>Android Support Library</li>
-                                            <li>Local Maven repository for Support Libraries</li>
+                                            <li>Android Support Repository</li>
                                             <li>Google Repository</li>
                                             <li>Android 6.0 (API 23) (doesn't affect min SDK version)</li>
                                         </ul>
@@ -340,10 +340,9 @@
                                         <kbd><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd></kbd> to open Build Settings.</p>
                                     <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/loadSceneOnEventScript.png" alt="Load scene script screenshot">
                                     <p> You have the option to load the scene with additive and/or async.
-                                        Please refer to the official Unity documentation about these advanced scene loading methods:
-                                        <a href="http://docs.unity3d.com/ScriptReference/Application.LoadLevelAsync.html">Application.LoadLevelAsync</a>,
-                                        <a href="http://docs.unity3d.com/ScriptReference/Application.LoadLevelAdditive.html">Application.LoadLevelAdditive</a>,
-                                        <a href="http://docs.unity3d.com/ScriptReference/Application.LoadLevelAdditiveAsync.html">Application.LoadLevelAdditiveAsync</a>.</p>
+                                        Please refer to the official Unity documentation about these scene loading methods:
+                                        <a href="http://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadScene.html">SceneManager.LoadScene</a>,
+                                        <a href="http://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadSceneAsync.html">SceneManager.LoadSceneAsync</a>.</p>
                                 </section>
                                 
                                 <!-- Deactivate On Event script -->
@@ -422,22 +421,22 @@
                                 <p>The above Quick Start scripts <a href="#load-scene-script">Load Scene On Event</a> and <a href="#deactivate-event-script">Deactivate On Event</a>
                                     work well together with the <a href="#init-script">Initialize CloudOnce Quick Start script</a>.</p>
                                 <p>If you prefer to implement the initialization into one of your existing scripts, you must first add the using directive
-                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
+                                    <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
                                     and then use the method
-                                    <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
+                                    <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
                                     <code class="hl-code code-icon method-icon" data-lang="csharp">Cloud.<span class="hl-method">Initialize</span>()</code></a>
                                     for initialization. It is recommended to call this method in an <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html">Awake method</a>.
                                     To know when the initialization is complete you can subscribe to the event 
-                                    <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ad8c0ff352bece48d7ffb9dd2e59cebe2">
+                                    <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ad8c0ff352bece48d7ffb9dd2e59cebe2">
                                         <code class="hl-code code-icon event-icon">Cloud.OnInitializeComplete</code></a>.</p>
                                 <p>If you don't intend to use Cloud Save in your game, you can disable it by adding <code class="language-csharp">false</code> as a parameter to the Initialize method,
-                                    like this: <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
+                                    like this: <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
                                     <code class="hl-code code-icon method-icon">Cloud.<span class="hl-method">Initialize</span>(<span class="hl-keyword">false</span>)</code></a>.</p>
                                 <p>You also have to option of disabling auto sign-in and auto load in the Initialize method.</p>
                                 <span class="anchor" id="init-example-code"></span>
                                 <h4>Example code</h4>
                                 <p>This example code shows initialization of CloudOnce and subscribing to the event
-                                    <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ad8c0ff352bece48d7ffb9dd2e59cebe2">
+                                    <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ad8c0ff352bece48d7ffb9dd2e59cebe2">
                                         <code class="hl-code code-icon event-icon">Cloud.OnInitializeComplete</code></a>.</p>
                                 <pre><code class="language-csharp">using Trollpants.CloudOnce;
 using UnityEngine;
@@ -534,7 +533,7 @@ public class CloudOnceInitializer : MonoBehaviour
                                 <p>After you have set up all your achievements in the <a href="#editor-window">CloudOnce editor</a>, it will generate a static class called
                                     Achievements. This class allows you to increment, reveal and unlock your achievements. To access this class in your scripts you must
                                     first add the using directive
-                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
+                                    <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
                                     After that each achievement can be accessed like this <code class="language-csharp">Achievements.YourInternalID</code>.
                                     Here is a code example where you see the syntax for all three achievement methods:</p>
                                 <pre><code class="language-csharp">void GameOver()
@@ -573,7 +572,7 @@ public class CloudOnceInitializer : MonoBehaviour
                                 <p>The easiest way to display the native achievements overlay, is to use the above
                                     <a href="#show-achievements-script">Show Achievements Button</a> Quick Start script.</p>
                                 <p>If you prefer to open the native overlay from one of your existing scripts, you must first add the using directive
-                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
+                                    <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
                                     and then use the method
                                     <code class="hl-code code-icon method-icon">Cloud.Achievements.<span class="hl-method">ShowOverlay</span>()</code>.</p>
                                 <p>
@@ -620,7 +619,7 @@ public class CloudOnceInitializer : MonoBehaviour
                                 <p>After you have set up all your leaderboards in the <a href="#editor-window">CloudOnce editor</a>, it will generate a static class called
                                     Leaderboards. This class allows you to submit scores to your leaderboards. To access this class in your scripts you must
                                     first add the using directive
-                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
+                                    <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
                                     After that each leaderboard can be accessed like this <code class="language-csharp">Leaderboards.YourInternalID</code>.
                                     Here is a code example where you see the syntax:</p>
                                 <pre class="docs-section"><code class="language-csharp">void GameOver()
@@ -646,7 +645,7 @@ public class CloudOnceInitializer : MonoBehaviour
                                 <p>The easiest way to display the native leaderboards overlay, is to use the above
                                     <a href="#show-leaderboards-script">Show Leaderboards Button</a> Quick Start script.</p>
                                 <p>If you prefer to open the native overlay from one of your existing scripts, you must first add the using directive
-                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
+                                    <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>
                                     and then use the method
                                     <code class="hl-code code-icon method-icon">Cloud.Leaderboards.<span class="hl-method">ShowOverlay</span>()</code>.</p>
                                 <p>
@@ -730,14 +729,14 @@ public class CloudOnceInitializer : MonoBehaviour
                                         <dt>Variable Type</dt>
                                         <dd>For information about each supported cloud variable type, please refer to the respective API documentation:
                                             <ul class="list-inline" style="margin-bottom:0px">
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_int.html">CloudInt</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html">CloudCurrencyInt</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_float.html">CloudFloat</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html">CloudCurrencyFloat</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html">CloudBool</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html">CloudString</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_double.html">CloudDouble</a></li>
-                                                <li><a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_u_int.html">CloudUInt</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_int.html">CloudInt</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html">CloudCurrencyInt</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_float.html">CloudFloat</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html">CloudCurrencyFloat</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html">CloudBool</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html">CloudString</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_double.html">CloudDouble</a></li>
+                                                <li><a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_u_int.html">CloudUInt</a></li>
                                             </ul></dd>
                                         <dt>Starting Value</dt>
                                         <dd>The initial value for the variable.</dd>
@@ -746,9 +745,9 @@ public class CloudOnceInitializer : MonoBehaviour
                                             If you use Highest, you will only be able to set a higher number than the current one. Lowest works the opposite way and Latest
                                             works just like a regular variable. Special cases:<br>
                                             <ul style="margin-bottom:0px">
-                                                <li>For <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html">CloudBool</a>
+                                                <li>For <a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html">CloudBool</a>
                                                     Highest will prefer <code class="language-csharp">true</code> and Lowest will prefer <code class="language-csharp">false</code>.</li>
-                                                <li>For <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html">CloudString</a>
+                                                <li>For <a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html">CloudString</a>
                                                     Highest will prefer the longest <code class="language-csharp">string</code> and Lowest will prefer the shortest
                                                     <code class="language-csharp">string</code>.</li>
                                                 <li>The <a href="#cloud-save-currencies">currency types</a> has special conflict resolution, so there is no need to select
@@ -771,8 +770,8 @@ public class CloudOnceInitializer : MonoBehaviour
                                 <span class="anchor" id="cloud-save-currencies"></span>
                                 <h3>Virtual currencies</h3>
                                 <p class="language-csharp">When dealing with virtual currencies in games, one has to be extra careful. We have special variables for these:
-                                    <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html">CloudCurrencyInt</a> and
-                                    <a href="api-docs/class_trollpants_1_1_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html">CloudCurrencyFloat</a>. These variables
+                                    <a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html">CloudCurrencyInt</a> and
+                                    <a href="api-docs/class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html">CloudCurrencyFloat</a>. These variables
                                     have been designed so that the user will never lose any of their acquired currency due to e.g. synchronization problems between devices.
                                     All additions and subtractions made to a currency are stored as two sums for each device the user has connected to your game. When checking
                                     the balance for a currency, the sum of these transactions are returned. The conflict resolution system is based on this article:
@@ -788,7 +787,7 @@ public class CloudOnceInitializer : MonoBehaviour
                                 <p>After you have set up all your cloud variables in the <a href="#editor-window">CloudOnce editor</a>, it will generate a static class called
                                     CloudVariables. This class gives you access to all your cloud variables. To access this class in your scripts you must
                                     first add the using directive
-                                    <a href="api-docs/namespace_trollpants_1_1_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
+                                    <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce</code></a>.
                                     After that each cloud variable
                                     can be accessed like this <code class="language-csharp">CloudVariables.YourInternalID</code>. Here is a code example where you see the syntax:</p>
                                 <pre class="docs-section"><code class="language-csharp">void GoldPickup()
@@ -819,11 +818,11 @@ void PurchaseCoolHat()
                                     <p>If you need more flexibility than what the generated CloudVariables class can offer or simply want to declare the cloud
                                         variables in one of your existing scripts, this method of implementation is for you.</p>
                                     <p>First add the using directive
-                                        <a href="api-docs/namespace_trollpants_1_1_cloud_once_1_1_cloud_prefs.html">
+                                        <a href="api-docs/namespace_cloud_once_1_1_cloud_prefs.html">
                                             <code class="hl-code code-icon namespace-icon">Trollpants.CloudOnce.CloudPrefs</code></a>.
                                         You can then declare cloud variables like this:</p>
                                     <p><code class="language-csharp">CloudInt yourInt = new CloudInt("uniqueID", PersistenceType.persistenceType);</code></p>
-                                    <p>Refer to the <a href="api-docs/namespace_trollpants_1_1_cloud_once_1_1_cloud_prefs.html">API documentation</a>
+                                    <p>Refer to the <a href="api-docs/namespace_cloud_once_1_1_cloud_prefs.html">API documentation</a>
                                         for information on each cloud variable type.</p>
                                     <p>Declaring the cloud variables this way will enable you to reset cloud variables back to their starting value, using the Reset method:
                                         <code class="hl-code code-icon method-icon">yourInt.<span class="hl-method">Reset</span>();</code></p>
@@ -875,7 +874,7 @@ public class AdvancedCloudSaveExample : MonoBehaviour
                                     <p>The load method <code class="hl-code code-icon method-icon">Cloud.Storage.<span class="hl-method">Load</span>()</code> is called
                                         automatically when the user signs in on the current platform. To call a method when new cloud data is received,
                                         subscribe to this event:
-                                        <a href="api-docs/interface_trollpants_1_1_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ae7678a19c1fbdafd65fc6e8d39c427a1">
+                                        <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ae7678a19c1fbdafd65fc6e8d39c427a1">
                                             <code class="hl-code code-icon event-icon">Cloud.OnNewCloudValues</code></a>. A common example is to update
                                         GUI elements after new cloud data is received.</p>
                                     <p>The load method can be called at any time after initialization to check for new cloud data, but with most games, the automatic load

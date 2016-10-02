@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mergewith',['MergeWith',['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_syncable_currency.html#a8f87a2d34925e192c9fdd5f177603d81',1,'Trollpants.CloudOnce.Internal.SyncableCurrency.MergeWith()'],['../class_trollpants_1_1_cloud_once_1_1_internal_1_1_game_data.html#a735ea66b9dd997ca4afc5d875406fe45',1,'Trollpants.CloudOnce.Internal.GameData.MergeWith()']]]
+  ['mergewith',['MergeWith',['../class_cloud_once_1_1_internal_1_1_syncable_currency.html#abdbd5013e8d76c272e44eecfcf8d9638',1,'CloudOnce.Internal.SyncableCurrency.MergeWith()'],['../class_cloud_once_1_1_internal_1_1_game_data.html#a11e00127180dce5114e3647b33e74a1b',1,'CloudOnce.Internal.GameData.MergeWith()']]]
 ];

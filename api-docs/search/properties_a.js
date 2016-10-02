@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['result',['Result',['../class_trollpants_1_1_cloud_once_1_1_cloud_request_result.html#a6e3af68bef94b3fb7593819a16b0c03b',1,'Trollpants::CloudOnce::CloudRequestResult']]]
+  ['result',['Result',['../class_cloud_once_1_1_cloud_request_result.html#ab11e540871e8340dccb9b4da7f779c91',1,'CloudOnce::CloudRequestResult']]]
 ];

@@ -1,4 +1,4 @@
 var namespaces =
 [
-    [ "Trollpants", "namespace_trollpants.html", "namespace_trollpants" ]
+    [ "CloudOnce", "namespace_cloud_once.html", "namespace_cloud_once" ]
 ];
