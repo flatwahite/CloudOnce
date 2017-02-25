@@ -823,12 +823,12 @@ void PurchaseCoolHat()
                                         <a href="api-docs/namespace_cloud_once_1_1_cloud_prefs.html">
                                             <code class="hl-code code-icon namespace-icon">CloudOnce.CloudPrefs</code></a>.
                                         You can then declare cloud variables like this:</p>
-                                    <p><code class="language-csharp">CloudInt yourInt = new CloudInt("uniqueID", PersistenceType.persistenceType);</code></p>
+                                    <p><code class="language-csharp">yourCloudInt = new CloudInt("uniqueID", PersistenceType.persistenceType);</code></p>
                                     <p>Refer to the <a href="api-docs/namespace_cloud_once_1_1_cloud_prefs.html">API documentation</a>
                                         for information on each cloud variable type.</p>
                                     <p>Declaring the cloud variables this way will enable you to reset cloud variables back to their starting value, using the Reset method:
                                         <a href="api-docs/class_cloud_once_1_1_internal_1_1_persistent_value.html#ab26b811fd99cbc734b6bda38d3a54ef0">
-                                            <code class="hl-code code-icon method-icon">yourInt.<span class="hl-method">Reset</span>();</code></a></p>
+                                            <code class="hl-code code-icon method-icon">yourInt.<span class="hl-method">Reset</span>();</code></a> See the example below for more details. </p>
                                     <p class="alert alert-warning alert-center">Make sure you don't declare any cloud variables as local variables within your methods,
                                         this will mess up the save system.</p>
                                     <p><strong>Code example</strong> of advanced cloud save implementaion:</p>
@@ -838,8 +838,8 @@ using UnityEngine;
 
 public class AdvancedCloudSaveExample : MonoBehaviour
 {
-    private CloudInt highScore = new CloudInt("HighScore", PersistenceType.Highest);
-    private CloudInt playerDeaths = new CloudInt("PlayerDeaths", PersistenceType.Highest);
+    private CloudInt highScore;
+    private CloudInt playerDeaths;
 
     private int HighScore
     {
@@ -867,6 +867,12 @@ public class AdvancedCloudSaveExample : MonoBehaviour
         // Since HighScore uses PersistenceType.Highest, lower values will be ignored.
         HighScore = score;
         Cloud.Storage.Save();
+    }
+    
+    private void Start()
+    {
+        highScore = new CloudInt("HighScore", PersistenceType.Highest);
+        playerDeaths = new CloudInt("PlayerDeaths", PersistenceType.Highest);
     }
 }</code></pre>
                                 </section>
