@@ -654,6 +654,17 @@ public class CloudOnceInitializer : MonoBehaviour
                                         <code class="hl-code code-icon event-icon">MonoBehaviour.OnApplicationPause(bool)</code>
                                     </a> is called.
                                 </p>
+                                
+                                <!-- Post build steps for tvOS -->
+                                <span class="anchor" id="leaderboards-post-build"></span>
+                                <h3>Post build steps for tvOS</h3>
+                                <p>After building the project, in Xcode:</p>
+                                <ol>
+                                    <li>Open Images.xcassets</li>
+                                    <li>Right click and select Game Center -> New Apple TV Leaderboard</li>
+                                    <li>Select leaderboard(s) and set the identifier(s) to match your leaderboard id(s)</li>
+                                    <li>Add graphics to leaderboards</li>
+                                </ol>
                             </div>
                         </div>
                     </section>
@@ -970,6 +981,7 @@ public class AdvancedCloudSaveExample : MonoBehaviour
                                     <li><a href="#leaderboards-setup">Initial setup</a></li>
                                     <li><a href="#leaderboards-impl">Implementation</a></li>
                                     <li><a href="#leaderboards-overlay">Native Overlay</a></li>
+                                    <li><a href="#leaderboards-post-build">tvOS post build</a></li>
                                 </ul>
                             </li>
                             <li>
