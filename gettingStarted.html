@@ -108,10 +108,6 @@
                                 <h4 class="idList idList-PlayGames">Google</h4>
                                 <p><a href="https://play.google.com/apps/publish">Google Play Developer Console</a></p>
                             </div>
-                            <div class="col-md-4">
-                                <h4 class="idList idList-GameCircle">Amazon</h4>
-                                <p><a href="https://developer.amazon.com/home.html">Amazon App Distribution Program</a></p>
-                            </div>
                         </div>
                     </section>
                     
@@ -136,12 +132,6 @@
                                     <li>GameKit Framework</li>
                                     <li>Key-value storage (for iCloud)</li>
                                     <li><a href="https://support.apple.com/en-us/HT204230">System requirements for iCloud</a></li>
-                                </ul>
-                                
-                                <!-- Amazon -->
-                                <h4 class="idList idList-GameCircle">Amazon</h4>
-                                <ul>
-                                    <li>Android 2.3.3 (API 10) or later</li>
                                 </ul>
                                 
                             </div>
@@ -211,22 +201,12 @@
                                             but should be disabled when building production builds.</p>
                                     </section>
                                     <section>
-                                        <h4>Android build platform</h4>
-                                        <p>Select current Android build platform. Only necessary when supporting both Google Play and Amazon.
-                                            It is very important that this setting is set correctly before building to an Android platform.</p>
-                                    </section>
-                                    <section>
                                         <h4>Google Play Application ID setup</h4>
                                         <p>If you are releasing on Google Play, you must run the Application ID setup. Enter the Application ID into the settings
                                             section of the CloudOnce Editor, and click the "Run setup" button.</p>
                                         <img class="img-responsive gray-border image-shadow-small extra-bottom-margin" src="img/appID.png" alt="Editor Settings screenshot">
                                         <p>You can find the Application ID in the Game Services section of Google's developer console, below the title of your game.
                                             Be sure to save the configuration after you have run the setup so the editor will remember the ID.</p>
-                                    </section>
-                                    <section>
-                                        <h4>GameCircle API Key</h4>
-                                        <p>If you are releasing on Amazon GameCircle, you need to enter the API key from your GameCircle configuration here.
-                                            The Amazon documentation claims that it must be added to a text file, but this is not accurate.</p>
                                     </section>
                                 </div>
                                 <div class="col-md-4">
@@ -261,9 +241,6 @@
                                             </li>
                                             <li class="idList idList-PlayGames">
                                                 <strong>Google Play Games IDs</strong> can contain alphanumeric characters (A-Z, a-z, 0-9), hyphens (-) and underscores (_).
-                                            </li>
-                                            <li class="idList idList-GameCircle">
-                                                <strong>Amazon GameCircle IDs</strong> can contain alphanumeric characters (A-Z, a-z, 0-9) and underscores (_).
                                             </li>
                                         </ul>
                                     </section>
@@ -414,7 +391,7 @@
                             <div class="col-xs-12">
                                 <p>To use CloudOnce, it must first be initialized. The easiest way to do this is to use the above
                                     <a href="#init-script">Initialize CloudOnce Quick Start script</a>.</p>
-                                <p>The initialization first tries to sign the user into the current platform's native game services (Game Center/Play Games/GameCircle).
+                                <p>The initialization first tries to sign the user into the current platform's native game services (Game Center/Play Games).
                                     If the sign in is successful, it attempts to fetch progress details about any achievements and download any cloud data.
                                     If the sign in fails, the system will fall back to using the local cached data. In this scenario you will be able to continue to use
                                     the cloud variables, and the system will merge the local data with the cloud data at the next sign in.</p>
@@ -510,10 +487,6 @@ public class CloudOnceInitializer : MonoBehaviour
                                         <strong>Google Play Game Services</strong><br>
                                         You can reveal hidden achievements by using the Reveal method. They are also automatically revealed when they are unlocked.
                                     </li>
-                                    <li class="idList idList-GameCircle">
-                                        <strong>Amazon GameCircle</strong><br>
-                                        Hidden achievements are only revealed when they are unlocked. Calling on the Reveal has no effect.
-                                    </li>
                                 </ul>
                                 <p>Keep this in mind when implementing your achievements.</p>
                                 
@@ -524,7 +497,7 @@ public class CloudOnceInitializer : MonoBehaviour
                                     <a href="#editor-window">CloudOnce editor</a>. Please see the <a href="#editor-cloud-ids">Cloud IDs section</a> above for more
                                     information about setting up achievements in the <a href="#editor-window">CloudOnce editor</a>.</p>
                                 <p class="alert alert-info">Each platform gives you a total of 1000 points
-                                    (or XP) to distribute on achievements. However, iOS and Amazon allows a maximum of 100 points per achievement, have this
+                                    (or XP) to distribute on achievements. However, iOS allows a maximum of 100 points per achievement, have this
                                     in mind when distributing these points.</p>
                                 
                                 <!-- Implementation -->
@@ -719,10 +692,6 @@ public class CloudOnceInitializer : MonoBehaviour
                                                 activating "Saved Games" before it is ready for testing.<br>
                                                 If you attempt to initialize CloudOnce with Cloud Save active on Google Play before "Saved Games" is ready,
                                                 the initialization will crash.</p>
-                                        </li>
-                                        <li class="idList idList-GameCircle">
-                                            <strong>Amazon GameCircle</strong><br>
-                                            No extra setup needed for Amazon GameCircle.
                                         </li>
                                     </ul>
                                 </div>
