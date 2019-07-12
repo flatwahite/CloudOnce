@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['editorachievementutils',['EditorAchievementUtils',['../class_cloud_once_1_1_internal_1_1_utils_1_1_editor_achievement_utils.html',1,'CloudOnce::Internal::Utils']]],
-  ['editorjsonhelper',['EditorJsonHelper',['../class_cloud_once_1_1_internal_1_1_editor_1_1_editor_json_helper.html',1,'CloudOnce::Internal::Editor']]],
-  ['editorleaderboardutils',['EditorLeaderboardUtils',['../class_cloud_once_1_1_internal_1_1_utils_1_1_editor_leaderboard_utils.html',1,'CloudOnce::Internal::Utils']]]
+  ['datamanager',['DataManager',['../class_cloud_once_1_1_internal_1_1_data_manager.html',1,'CloudOnce::Internal']]],
+  ['deactivateonawakeifnotgoogle',['DeactivateOnAwakeIfNotGoogle',['../class_cloud_once_1_1_quick_start_1_1_deactivate_on_awake_if_not_google.html',1,'CloudOnce::QuickStart']]],
+  ['deactivateoncloudonceevent',['DeactivateOnCloudOnceEvent',['../class_cloud_once_1_1_quick_start_1_1_deactivate_on_cloud_once_event.html',1,'CloudOnce::QuickStart']]],
+  ['dummyprovider',['DummyProvider',['../class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_provider.html',1,'CloudOnce::Internal::Providers']]],
+  ['dummystoragewrapper',['DummyStorageWrapper',['../class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_storage_wrapper.html',1,'CloudOnce::Internal::Providers']]]
 ];

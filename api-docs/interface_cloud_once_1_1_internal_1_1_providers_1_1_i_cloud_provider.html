@@ -142,7 +142,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:af7050dda014135d4c12480ff03386985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the user is currently signed in.  <a href="#af7050dda014135d4c12480ff03386985">More...</a><br /></td></tr>
 <tr class="separator:af7050dda014135d4c12480ff03386985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fd9fed9605a3cf318d1646b9fa66700"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a4fd9fed9605a3cf318d1646b9fa66700">CloudSaveEnabled</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a4fd9fed9605a3cf318d1646b9fa66700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not Cloud Save is enabled. Disabling Cloud Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if Cloud Save was initialized in Cloud.Initialize method.  <a href="#a4fd9fed9605a3cf318d1646b9fa66700">More...</a><br /></td></tr>
+<tr class="memdesc:a4fd9fed9605a3cf318d1646b9fa66700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save is enabled. Disabling <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save was initialized in <a class="el" href="class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec" title="Initializes the current cloud provider.">Cloud.Initialize</a> method.  <a href="#a4fd9fed9605a3cf318d1646b9fa66700">More...</a><br /></td></tr>
 <tr class="separator:a4fd9fed9605a3cf318d1646b9fa66700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9658d4e39ac2b1d49eea96820ec8c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_storage_provider.html">ICloudStorageProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#ae9658d4e39ac2b1d49eea96820ec8c2f">Storage</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae9658d4e39ac2b1d49eea96820ec8c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for accessing cloud save on the current platform.  <a href="#ae9658d4e39ac2b1d49eea96820ec8c2f">More...</a><br /></td></tr>
@@ -186,9 +186,9 @@ Properties</h2></td></tr>
 <p>Initializes the current cloud provider. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">activateCloudSave</td><td>Whether or not Cloud Saving should be activated.</td></tr>
+    <tr><td class="paramname">activateCloudSave</td><td>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving should be activated.</td></tr>
     <tr><td class="paramname">autoSignIn</td><td>Whether or not <a class="el" href="interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a95453bc23942d0e4c25cc432da1ee772" title="Signs in to the current cloud provider.">SignIn</a> will be called automatically once the cloud provider is initialized. </td></tr>
-    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if Cloud Saving is deactivated or the user fails to sign in. </td></tr>
+    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving is deactivated or the user fails to sign in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -265,7 +265,7 @@ Properties</h2></td></tr>
 <p>Signs in to the current cloud provider. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically when the user is successfully signed in. Ignored if Cloud Saving is deactivated or the user fails to sign in. </td></tr>
+    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically when the user is successfully signed in. Ignored if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving is deactivated or the user fails to sign in. </td></tr>
     <tr><td class="paramname">callback</td><td>The callback to call when authentication finishes. It will be called with <code>true</code> if authentication was successful, <code>false</code> otherwise. </td></tr>
   </table>
   </dd>
@@ -317,7 +317,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Whether or not Cloud Save is enabled. Disabling Cloud Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if Cloud Save was initialized in Cloud.Initialize method. </p>
+<p>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save is enabled. Disabling <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save was initialized in <a class="el" href="class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec" title="Initializes the current cloud provider.">Cloud.Initialize</a> method. </p>
 
 </div>
 </div>
@@ -466,7 +466,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this interface was generated from the following file:<ul>
-<li>F:/GitHub/CloudOnce/source/PluginDev/Assets/Extensions/CloudOnce/Internal/Interfaces/ICloudProvider.cs</li>
+<li>Assets/Extensions/CloudOnce/Internal/Interfaces/ICloudProvider.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

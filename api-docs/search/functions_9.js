@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['persistentvalue',['PersistentValue',['../class_cloud_once_1_1_internal_1_1_persistent_value.html#a83b47f17265d735b884a157e194f8992',1,'CloudOnce::Internal::PersistentValue']]],
-  ['platformiddata',['PlatformIdData',['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a565ac228d74bce0910d93f6cea5db56b',1,'CloudOnce.Internal.Editor.Data.PlatformIdData.PlatformIdData(JSONObject jsonObject)'],['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a692c35c00df111479c8d3d022e3eb8b1',1,'CloudOnce.Internal.Editor.Data.PlatformIdData.PlatformIdData(string fromString)'],['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#a08b8578a4508bae75182a2f824d4429b',1,'CloudOnce.Internal.Editor.Data.PlatformIdData.PlatformIdData()']]]
+  ['mergelocaldatawith',['MergeLocalDataWith',['../class_cloud_once_1_1_internal_1_1_data_manager.html#a398ec93066c9c1cffc58686c61b65fe0',1,'CloudOnce::Internal::DataManager']]],
+  ['mergewith',['MergeWith',['../class_cloud_once_1_1_internal_1_1_syncable_currency.html#abdbd5013e8d76c272e44eecfcf8d9638',1,'CloudOnce.Internal.SyncableCurrency.MergeWith()'],['../class_cloud_once_1_1_internal_1_1_game_data.html#a11e00127180dce5114e3647b33e74a1b',1,'CloudOnce.Internal.GameData.MergeWith()']]]
 ];

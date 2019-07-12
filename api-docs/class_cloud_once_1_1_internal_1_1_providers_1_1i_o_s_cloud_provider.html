@@ -124,7 +124,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1ef45672ee0885e791c442a194d61517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the user profiles accociated with the given array of user IDs.  <a href="#a1ef45672ee0885e791c442a194d61517">More...</a><br /></td></tr>
 <tr class="separator:a1ef45672ee0885e791c442a194d61517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a556720c830340170fbe4b08c0f70c12e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a556720c830340170fbe4b08c0f70c12e">InternalInit</a> (<a class="el" href="class_cloud_once_1_1_internal_1_1_cloud_once_events.html">CloudOnceEvents</a> events)</td></tr>
-<tr class="memdesc:a556720c830340170fbe4b08c0f70c12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method used by Cloud to initialize the Cloud provider.  <a href="#a556720c830340170fbe4b08c0f70c12e">More...</a><br /></td></tr>
+<tr class="memdesc:a556720c830340170fbe4b08c0f70c12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method used by <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> to initialize the <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> provider.  <a href="#a556720c830340170fbe4b08c0f70c12e">More...</a><br /></td></tr>
 <tr class="separator:a556720c830340170fbe4b08c0f70c12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -142,7 +142,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:a2876e8973686dc5853b6bae219341a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the user is currently signed in.  <a href="#a2876e8973686dc5853b6bae219341a7f">More...</a><br /></td></tr>
 <tr class="separator:a2876e8973686dc5853b6bae219341a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36651b63d0a6c48d598f8de867cc49b9"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a36651b63d0a6c48d598f8de867cc49b9">CloudSaveEnabled</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a36651b63d0a6c48d598f8de867cc49b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not Cloud Save is enabled. Disabling Cloud Save will make <code>Cloud.Storage.Save</code> only save to disk.  <a href="#a36651b63d0a6c48d598f8de867cc49b9">More...</a><br /></td></tr>
+<tr class="memdesc:a36651b63d0a6c48d598f8de867cc49b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save is enabled. Disabling <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save will make <code>Cloud.Storage.Save</code> only save to disk.  <a href="#a36651b63d0a6c48d598f8de867cc49b9">More...</a><br /></td></tr>
 <tr class="separator:a36651b63d0a6c48d598f8de867cc49b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a6284cc992a6ca32d59d4083a357cbb"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_storage_provider.html">ICloudStorageProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a5a6284cc992a6ca32d59d4083a357cbb">Storage</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a5a6284cc992a6ca32d59d4083a357cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for accessing cloud save on Apple Game Center.  <a href="#a5a6284cc992a6ca32d59d4083a357cbb">More...</a><br /></td></tr>
@@ -229,9 +229,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnOnDestroy</
 <p>Initializes Apple Game Center. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">activateCloudSave</td><td>Whether or not Cloud Saving should be activated.</td></tr>
+    <tr><td class="paramname">activateCloudSave</td><td>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving should be activated.</td></tr>
     <tr><td class="paramname">autoSignIn</td><td>Whether or not <a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html#a791d195e5c34071f2781395a152b71d6" title="Signs in to Apple Game Center.">SignIn</a> will be called automatically once the cloud provider is initialized. </td></tr>
-    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if Cloud Saving is deactivated. </td></tr>
+    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving is deactivated. </td></tr>
   </table>
   </dd>
 </dl>
@@ -256,7 +256,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnOnDestroy</
       </table>
 </div><div class="memdoc">
 
-<p>Method used by Cloud to initialize the Cloud provider. </p>
+<p>Method used by <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> to initialize the <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> provider. </p>
 
 </div>
 </div>
@@ -344,7 +344,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnOnDestroy</
 <p>Signs in to Apple Game Center. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically when the user is successfully signed in. Ignored if Cloud Saving is deactivated or the user fails to sign in. </td></tr>
+    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically when the user is successfully signed in. Ignored if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving is deactivated or the user fails to sign in. </td></tr>
     <tr><td class="paramname">callback</td><td>The callback to call when authentication finishes. It will be called with <code>true</code> if authentication was successful, <code>false</code> otherwise. </td></tr>
   </table>
   </dd>
@@ -404,7 +404,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnOnDestroy</
 </table>
 </div><div class="memdoc">
 
-<p>Whether or not Cloud Save is enabled. Disabling Cloud Save will make <code>Cloud.Storage.Save</code> only save to disk. </p>
+<p>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save is enabled. Disabling <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save will make <code>Cloud.Storage.Save</code> only save to disk. </p>
 
 </div>
 </div>
@@ -529,7 +529,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnOnDestroy</
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/GitHub/CloudOnce/source/PluginDev/Assets/Extensions/CloudOnce/Providers/AppleGameCenter/iOSCloudProvider.cs</li>
+<li>Assets/Extensions/CloudOnce/Providers/AppleGameCenter/iOSCloudProvider.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

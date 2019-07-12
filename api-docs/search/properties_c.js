@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['timestamp',['Timestamp',['../class_cloud_once_1_1_internal_1_1_syncable_item_meta_data.html#ab8e20ab8fde0cc9bf3ed4936ef097715',1,'CloudOnce::Internal::SyncableItemMetaData']]]
+  ['result',['Result',['../class_cloud_once_1_1_cloud_request_result.html#ab11e540871e8340dccb9b4da7f779c91',1,'CloudOnce::CloudRequestResult']]]
 ];

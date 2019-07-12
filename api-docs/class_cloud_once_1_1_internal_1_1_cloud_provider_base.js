@@ -7,6 +7,7 @@ var class_cloud_once_1_1_internal_1_1_cloud_provider_base =
     [ "SignIn", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#a787ffd257b17fe1643bacb318e8e2725", null ],
     [ "SignOut", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#ab140464b7aca8c7667cfce2935b5451c", null ],
     [ "CloudSaveEnabled", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#acb1cc47c11116225acd42560512ab130", null ],
+    [ "Instance", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#a3da9934e7a7fb4d4b78b5d4df332670b", null ],
     [ "IsSignedIn", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#a4289c8879f3e6600937b1c48b592b235", null ],
     [ "PlayerDisplayName", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#acc697001ee4fe07c754394908b8cb0bb", null ],
     [ "PlayerID", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html#a5993d229b027b39403c49f30ae2297f0", null ],

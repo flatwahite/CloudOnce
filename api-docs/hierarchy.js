@@ -1,8 +1,14 @@
 var hierarchy =
 [
+    [ "CloudOnce.Achievements", "class_cloud_once_1_1_achievements.html", null ],
+    [ "CloudOnce.Internal.AchievementsBridge", "class_cloud_once_1_1_internal_1_1_achievements_bridge.html", null ],
     [ "CloudOnce.Internal.Editor.Utils.GPGSStrings.AndroidSetup", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings_1_1_android_setup.html", null ],
+    [ "CloudOnce.Internal.Editor.Utils.BuildUtils", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_build_utils.html", null ],
+    [ "CloudOnce.Cloud", "class_cloud_once_1_1_cloud.html", null ],
     [ "CloudOnce.Internal.CloudOnceEvents", "class_cloud_once_1_1_internal_1_1_cloud_once_events.html", null ],
+    [ "CloudOncePaths", "class_cloud_once_paths.html", null ],
     [ "CloudOnce.Internal.Editor.CloudOnceUpgrader", "class_cloud_once_1_1_internal_1_1_editor_1_1_cloud_once_upgrader.html", null ],
+    [ "CloudOnce.Internal.Utils.CloudOnceUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_cloud_once_utils.html", null ],
     [ "CloudOnce.Internal.CloudProviderBase< DummyProvider >", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html", [
       [ "CloudOnce.Internal.Providers.DummyProvider", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_provider.html", null ]
     ] ],
@@ -16,6 +22,8 @@ var hierarchy =
       [ "CloudOnce.Internal.Providers.TestProvider", "class_cloud_once_1_1_internal_1_1_providers_1_1_test_provider.html", null ]
     ] ],
     [ "CloudOnce.CloudRequestResult< T >", "class_cloud_once_1_1_cloud_request_result.html", null ],
+    [ "CloudOnce.Internal.ConflictResolver", "class_cloud_once_1_1_internal_1_1_conflict_resolver.html", null ],
+    [ "CloudOnce.Internal.DataManager", "class_cloud_once_1_1_internal_1_1_data_manager.html", null ],
     [ "CloudOnce.Internal.Editor.EditorJsonHelper", "class_cloud_once_1_1_internal_1_1_editor_1_1_editor_json_helper.html", null ],
     [ "EditorWindow", null, [
       [ "CloudOnce.Internal.Editor.CloudOnceEditor", "class_cloud_once_1_1_internal_1_1_editor_1_1_cloud_once_editor.html", null ]
@@ -26,12 +34,15 @@ var hierarchy =
     [ "CloudOnce.Internal.GameData", "class_cloud_once_1_1_internal_1_1_game_data.html", null ],
     [ "CloudOnce.Internal.Providers.GenericAchievementsWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_generic_achievements_wrapper.html", null ],
     [ "CloudOnce.Internal.Providers.GenericLeaderboardsWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_generic_leaderboards_wrapper.html", null ],
+    [ "CloudOnce.Internal.Editor.Utils.GPGAndroidSetup", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_android_setup.html", null ],
     [ "CloudOnce.Internal.Editor.Utils.GPGSStrings", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings.html", null ],
+    [ "CloudOnce.Internal.Editor.Utils.GPGSUtil", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_util.html", null ],
     [ "CloudOnce.Internal.Utils.IAchievementUtils", "interface_cloud_once_1_1_internal_1_1_utils_1_1_i_achievement_utils.html", [
       [ "CloudOnce.Internal.Utils.AppleAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_apple_achievement_utils.html", null ],
       [ "CloudOnce.Internal.Utils.EditorAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_editor_achievement_utils.html", null ],
       [ "CloudOnce.Internal.Utils.GoogleAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_google_achievement_utils.html", null ]
     ] ],
+    [ "CloudOnce.Internal.iCloudBridge", "class_cloud_once_1_1_internal_1_1i_cloud_bridge.html", null ],
     [ "CloudOnce.Internal.Providers.ICloudProvider", "interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html", [
       [ "CloudOnce.Internal.CloudProviderBase< T >", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html", null ]
     ] ],
@@ -64,6 +75,8 @@ var hierarchy =
       [ "CloudOnce.Internal.Utils.EditorLeaderboardUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_editor_leaderboard_utils.html", null ],
       [ "CloudOnce.Internal.Utils.GoogleLeaderboardUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_google_leaderboard_utils.html", null ]
     ] ],
+    [ "CloudOnce.Internal.Utils.InternetConnectionUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_internet_connection_utils.html", null ],
+    [ "CloudOnce.Internal.Editor.Utils.iOSPostBuild", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1i_o_s_post_build.html", null ],
     [ "CloudOnce.Internal.IPersistent", "interface_cloud_once_1_1_internal_1_1_i_persistent.html", [
       [ "CloudOnce.Internal.PersistentCurrency", "class_cloud_once_1_1_internal_1_1_persistent_currency.html", [
         [ "CloudOnce.CloudPrefs.CloudCurrencyFloat", "class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html", null ],
@@ -74,6 +87,7 @@ var hierarchy =
     [ "IXmlNamespaceResolver", null, [
       [ "CloudOnce.Internal.Editor.Utils.AndroidManifestModifier", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_android_manifest_modifier.html", null ]
     ] ],
+    [ "CloudOnce.Internal.JsonHelper", "class_cloud_once_1_1_internal_1_1_json_helper.html", null ],
     [ "CloudOnce.Internal.JSONObject", "class_cloud_once_1_1_internal_1_1_j_s_o_n_object.html", null ],
     [ "CloudOnce.Internal.Editor.MenuLinks", "class_cloud_once_1_1_internal_1_1_editor_1_1_menu_links.html", null ],
     [ "MonoBehaviour", null, [
@@ -120,7 +134,9 @@ var hierarchy =
     [ "ScriptableObject", null, [
       [ "CloudOnce.Internal.Editor.Data.CloudConfig", "class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_cloud_config.html", null ]
     ] ],
+    [ "CloudOnce.Internal.Editor.Utils.SerializationUtils", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_serialization_utils.html", null ],
     [ "CloudOnce.Internal.Editor.Utils.GPGSStrings.Setup", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings_1_1_setup.html", null ],
     [ "CloudOnce.Internal.UnifiedAchievement", "class_cloud_once_1_1_internal_1_1_unified_achievement.html", null ],
-    [ "CloudOnce.Internal.UnifiedLeaderboard", "class_cloud_once_1_1_internal_1_1_unified_leaderboard.html", null ]
+    [ "CloudOnce.Internal.UnifiedLeaderboard", "class_cloud_once_1_1_internal_1_1_unified_leaderboard.html", null ],
+    [ "CloudOnce.Internal.Editor.Utils.ValidationUtils", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_validation_utils.html", null ]
 ];

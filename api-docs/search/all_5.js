@@ -1,14 +1,5 @@
 var searchData=
 [
-  ['gamedata',['GameData',['../class_cloud_once_1_1_internal_1_1_game_data.html',1,'CloudOnce::Internal']]],
-  ['genericachievementswrapper',['GenericAchievementsWrapper',['../class_cloud_once_1_1_internal_1_1_providers_1_1_generic_achievements_wrapper.html',1,'CloudOnce::Internal::Providers']]],
-  ['genericleaderboardswrapper',['GenericLeaderboardsWrapper',['../class_cloud_once_1_1_internal_1_1_providers_1_1_generic_leaderboards_wrapper.html',1,'CloudOnce::Internal::Providers']]],
-  ['getnamespacesinscope',['GetNamespacesInScope',['../class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_android_manifest_modifier.html#a0c296d71d70d0ec23e50578b9c4e60bc',1,'CloudOnce::Internal::Editor::Utils::AndroidManifestModifier']]],
-  ['googleachievementutils',['GoogleAchievementUtils',['../class_cloud_once_1_1_internal_1_1_utils_1_1_google_achievement_utils.html',1,'CloudOnce::Internal::Utils']]],
-  ['googleid',['GoogleId',['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html#aa253ac39d43e942ded79f6820bd77fab',1,'CloudOnce::Internal::Editor::Data::PlatformIdData']]],
-  ['googleleaderboardutils',['GoogleLeaderboardUtils',['../class_cloud_once_1_1_internal_1_1_utils_1_1_google_leaderboard_utils.html',1,'CloudOnce::Internal::Utils']]],
-  ['googleplaygamescloudprovider',['GooglePlayGamesCloudProvider',['../class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html',1,'CloudOnce::Internal::Providers']]],
-  ['googleplaygamescloudsavewrapper',['GooglePlayGamesCloudSaveWrapper',['../class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_save_wrapper.html',1,'CloudOnce::Internal::Providers']]],
-  ['googlesignoutbutton',['GoogleSignOutButton',['../class_cloud_once_1_1_quick_start_1_1_google_sign_out_button.html',1,'CloudOnce::QuickStart']]],
-  ['gpgsstrings',['GPGSStrings',['../class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings.html',1,'CloudOnce::Internal::Editor::Utils']]]
+  ['flush',['Flush',['../class_cloud_once_1_1_internal_1_1_persistent_currency.html#a10ca0ab633902a6effd2d8239a00a117',1,'CloudOnce.Internal.PersistentCurrency.Flush()'],['../class_cloud_once_1_1_internal_1_1_persistent_value.html#a57156316749069f9c6f2306d7bf818a6',1,'CloudOnce.Internal.PersistentValue.Flush()'],['../interface_cloud_once_1_1_internal_1_1_i_persistent.html#a56821654fb1af8cca5ceb76fb95d08b1',1,'CloudOnce.Internal.IPersistent.Flush()']]],
+  ['fromjsonobject',['FromJSONObject',['../class_cloud_once_1_1_internal_1_1_currency_value.html#a293ed472a383eac2538a0cfe73cc954d',1,'CloudOnce.Internal.CurrencyValue.FromJSONObject()'],['../class_cloud_once_1_1_internal_1_1_syncable_currency.html#a89fa7f9898be61b0b3c13f9593962ee1',1,'CloudOnce.Internal.SyncableCurrency.FromJSONObject()'],['../class_cloud_once_1_1_internal_1_1_syncable_item.html#ade368a7a0b0a389a6e85323b815995db',1,'CloudOnce.Internal.SyncableItem.FromJSONObject()'],['../class_cloud_once_1_1_internal_1_1_syncable_item_meta_data.html#a7e0661b1f76c93610afff0d9c23ac28f',1,'CloudOnce.Internal.SyncableItemMetaData.FromJSONObject()']]]
 ];

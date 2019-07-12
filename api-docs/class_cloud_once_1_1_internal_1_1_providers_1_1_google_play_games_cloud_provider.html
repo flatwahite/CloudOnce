@@ -125,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a70b2f4ee4f5d7c10d32fcfee75d8e2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the user profiles accociated with the given array of user IDs.  <a href="#a70b2f4ee4f5d7c10d32fcfee75d8e2a6">More...</a><br /></td></tr>
 <tr class="separator:a70b2f4ee4f5d7c10d32fcfee75d8e2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dfee9f36c406f79fe0da3fdd433f236"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a8dfee9f36c406f79fe0da3fdd433f236">InternalInit</a> (<a class="el" href="class_cloud_once_1_1_internal_1_1_cloud_once_events.html">CloudOnceEvents</a> events)</td></tr>
-<tr class="memdesc:a8dfee9f36c406f79fe0da3fdd433f236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method used by Cloud to initialize the Cloud provider.  <a href="#a8dfee9f36c406f79fe0da3fdd433f236">More...</a><br /></td></tr>
+<tr class="memdesc:a8dfee9f36c406f79fe0da3fdd433f236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method used by <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> to initialize the <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> provider.  <a href="#a8dfee9f36c406f79fe0da3fdd433f236">More...</a><br /></td></tr>
 <tr class="separator:a8dfee9f36c406f79fe0da3fdd433f236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3d9cf86ad6250f924af53142c8e4d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a5b3d9cf86ad6250f924af53142c8e4d2">ActivateGuestUserMode</a> ()</td></tr>
 <tr class="memdesc:a5b3d9cf86ad6250f924af53142c8e4d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets <a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a4b33eb8e4054bf471b6cadbcb5d594a1" title="If game defaults to guest user or not.">IsGuestUserDefault</a> to <code>true</code> and raises the <a class="el" href="class_cloud_once_1_1_internal_1_1_cloud_once_events.html#abc1a79d8c76daf7281715783cda652c1" title="Raised after player signed in status changed. Parameter indicates whether the player was signed in or...">CloudOnceEvents.OnSignedInChanged</a> event.  <a href="#a5b3d9cf86ad6250f924af53142c8e4d2">More...</a><br /></td></tr>
@@ -161,10 +161,10 @@ Properties</h2></td></tr>
 <tr class="memdesc:a6302dcbb5a894677e5d2aad6fe23078a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not the user is currently signed in.  <a href="#a6302dcbb5a894677e5d2aad6fe23078a">More...</a><br /></td></tr>
 <tr class="separator:a6302dcbb5a894677e5d2aad6fe23078a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28041dd3e7697d21ab54f740748e1efc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a28041dd3e7697d21ab54f740748e1efc">CloudSaveInitialized</a><code> [get]</code></td></tr>
-<tr class="memdesc:a28041dd3e7697d21ab54f740748e1efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not Cloud Save has been initialized. Is initilized with Cloud.Initialize method.  <a href="#a28041dd3e7697d21ab54f740748e1efc">More...</a><br /></td></tr>
+<tr class="memdesc:a28041dd3e7697d21ab54f740748e1efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save has been initialized. Is initilized with <a class="el" href="class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec" title="Initializes the current cloud provider.">Cloud.Initialize</a> method.  <a href="#a28041dd3e7697d21ab54f740748e1efc">More...</a><br /></td></tr>
 <tr class="separator:a28041dd3e7697d21ab54f740748e1efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d1bf1759b3b69a552eb0c83fc60870c"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a6d1bf1759b3b69a552eb0c83fc60870c">CloudSaveEnabled</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a6d1bf1759b3b69a552eb0c83fc60870c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not Cloud Save is enabled. Disabling Cloud Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if Cloud Save was initialized in Cloud.Initialize method.  <a href="#a6d1bf1759b3b69a552eb0c83fc60870c">More...</a><br /></td></tr>
+<tr class="memdesc:a6d1bf1759b3b69a552eb0c83fc60870c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save is enabled. Disabling <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save was initialized in <a class="el" href="class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec" title="Initializes the current cloud provider.">Cloud.Initialize</a> method.  <a href="#a6d1bf1759b3b69a552eb0c83fc60870c">More...</a><br /></td></tr>
 <tr class="separator:a6d1bf1759b3b69a552eb0c83fc60870c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af981320cca2132be52a5f2482e41245e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#af981320cca2132be52a5f2482e41245e">IsGpgsInitialized</a><code> [get]</code></td></tr>
 <tr class="memdesc:af981320cca2132be52a5f2482e41245e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not GPGS has been initlialized yet. Needed to make sure that it's not initialized by mistake with the wrong settings.  <a href="#af981320cca2132be52a5f2482e41245e">More...</a><br /></td></tr>
@@ -263,9 +263,9 @@ Properties</h2></td></tr>
 <p>Initializes Google Play Game Services. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">activateCloudSave</td><td>Whether or not Cloud Saving should be activated.</td></tr>
+    <tr><td class="paramname">activateCloudSave</td><td>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving should be activated.</td></tr>
     <tr><td class="paramname">autoSignIn</td><td>Whether or not <a class="el" href="class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#ac6371ebe9a44130b10f0c5ed02434871" title="Signs in to Google Play Game Services.">SignIn</a> will be called automatically once Google Play Game Services is initialized. </td></tr>
-    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if Cloud Saving is deactivated or the user fails to sign in. </td></tr>
+    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving is deactivated or the user fails to sign in. </td></tr>
   </table>
   </dd>
 </dl>
@@ -290,7 +290,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Method used by Cloud to initialize the Cloud provider. </p>
+<p>Method used by <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> to initialize the <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> provider. </p>
 
 </div>
 </div>
@@ -378,7 +378,7 @@ Properties</h2></td></tr>
 <p>Signs in to Google Play Game Services. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if Cloud Saving is deactivated or the user fails to sign in. </td></tr>
+    <tr><td class="paramname">autoCloudLoad</td><td>Whether or not cloud data should be loaded automatically if the user is successfully signed in. Ignored if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Saving is deactivated or the user fails to sign in. </td></tr>
     <tr><td class="paramname">callback</td><td>The callback to call when authentication finishes. It will be called with <code>true</code> if authentication was successful, <code>false</code> otherwise. </td></tr>
   </table>
   </dd>
@@ -438,7 +438,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Whether or not Cloud Save is enabled. Disabling Cloud Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if Cloud Save was initialized in Cloud.Initialize method. </p>
+<p>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save is enabled. Disabling <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save will make <code>Cloud.Storage.Save</code> only save to disk. Can only be enabled if <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save was initialized in <a class="el" href="class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec" title="Initializes the current cloud provider.">Cloud.Initialize</a> method. </p>
 
 </div>
 </div>
@@ -462,7 +462,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Whether or not Cloud Save has been initialized. Is initilized with Cloud.Initialize method. </p>
+<p>Whether or not <a class="el" href="class_cloud_once_1_1_cloud.html" title="Access point to the current platform-specific Cloud service provider">Cloud</a> Save has been initialized. Is initilized with <a class="el" href="class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec" title="Initializes the current cloud provider.">Cloud.Initialize</a> method. </p>
 
 </div>
 </div>
@@ -659,7 +659,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>F:/GitHub/CloudOnce/source/PluginDev/Assets/Extensions/CloudOnce/Providers/GooglePlayGames/GooglePlayGamesCloudProvider.cs</li>
+<li>Assets/Extensions/CloudOnce/Providers/GooglePlayGames/GooglePlayGamesCloudProvider.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

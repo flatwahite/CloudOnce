@@ -1,26 +1,4 @@
 var searchData=
 [
-  ['cloudbool',['CloudBool',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_bool.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudconfig',['CloudConfig',['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_cloud_config.html',1,'CloudOnce::Internal::Editor::Data']]],
-  ['cloudcurrencyfloat',['CloudCurrencyFloat',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_float.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudcurrencyint',['CloudCurrencyInt',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_currency_int.html',1,'CloudOnce::CloudPrefs']]],
-  ['clouddatetime',['CloudDateTime',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_date_time.html',1,'CloudOnce::CloudPrefs']]],
-  ['clouddecimal',['CloudDecimal',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_decimal.html',1,'CloudOnce::CloudPrefs']]],
-  ['clouddouble',['CloudDouble',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_double.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudfloat',['CloudFloat',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_float.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudint',['CloudInt',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_int.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudlong',['CloudLong',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_long.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudonceeditor',['CloudOnceEditor',['../class_cloud_once_1_1_internal_1_1_editor_1_1_cloud_once_editor.html',1,'CloudOnce::Internal::Editor']]],
-  ['cloudonceevents',['CloudOnceEvents',['../class_cloud_once_1_1_internal_1_1_cloud_once_events.html',1,'CloudOnce::Internal']]],
-  ['cloudonceupgrader',['CloudOnceUpgrader',['../class_cloud_once_1_1_internal_1_1_editor_1_1_cloud_once_upgrader.html',1,'CloudOnce::Internal::Editor']]],
-  ['cloudproviderbase',['CloudProviderBase',['../class_cloud_once_1_1_internal_1_1_cloud_provider_base.html',1,'CloudOnce::Internal']]],
-  ['cloudproviderbase_3c_20dummyprovider_20_3e',['CloudProviderBase&lt; DummyProvider &gt;',['../class_cloud_once_1_1_internal_1_1_cloud_provider_base.html',1,'CloudOnce::Internal']]],
-  ['cloudproviderbase_3c_20googleplaygamescloudprovider_20_3e',['CloudProviderBase&lt; GooglePlayGamesCloudProvider &gt;',['../class_cloud_once_1_1_internal_1_1_cloud_provider_base.html',1,'CloudOnce::Internal']]],
-  ['cloudproviderbase_3c_20ioscloudprovider_20_3e',['CloudProviderBase&lt; iOSCloudProvider &gt;',['../class_cloud_once_1_1_internal_1_1_cloud_provider_base.html',1,'CloudOnce::Internal']]],
-  ['cloudproviderbase_3c_20testprovider_20_3e',['CloudProviderBase&lt; TestProvider &gt;',['../class_cloud_once_1_1_internal_1_1_cloud_provider_base.html',1,'CloudOnce::Internal']]],
-  ['cloudrequestresult',['CloudRequestResult',['../class_cloud_once_1_1_cloud_request_result.html',1,'CloudOnce']]],
-  ['cloudstring',['CloudString',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_string.html',1,'CloudOnce::CloudPrefs']]],
-  ['clouduint',['CloudUInt',['../class_cloud_once_1_1_cloud_prefs_1_1_cloud_u_int.html',1,'CloudOnce::CloudPrefs']]],
-  ['cloudvariabledata',['CloudVariableData',['../class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_cloud_variable_data.html',1,'CloudOnce::Internal::Editor::Data']]],
-  ['currencyvalue',['CurrencyValue',['../class_cloud_once_1_1_internal_1_1_currency_value.html',1,'CloudOnce::Internal']]]
+  ['buildutils',['BuildUtils',['../class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_build_utils.html',1,'CloudOnce::Internal::Editor::Utils']]]
 ];
