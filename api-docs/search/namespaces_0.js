@@ -7,6 +7,5 @@ var searchData=
   ['internal',['Internal',['../namespace_cloud_once_1_1_internal.html',1,'CloudOnce']]],
   ['providers',['Providers',['../namespace_cloud_once_1_1_internal_1_1_providers.html',1,'CloudOnce::Internal']]],
   ['quickstart',['QuickStart',['../namespace_cloud_once_1_1_quick_start.html',1,'CloudOnce']]],
-  ['utils',['Utils',['../namespace_cloud_once_1_1_internal_1_1_editor_1_1_utils.html',1,'CloudOnce::Internal::Editor']]],
-  ['utils',['Utils',['../namespace_cloud_once_1_1_internal_1_1_utils.html',1,'CloudOnce::Internal']]]
+  ['utils',['Utils',['../namespace_cloud_once_1_1_internal_1_1_editor_1_1_utils.html',1,'CloudOnce.Internal.Editor.Utils'],['../namespace_cloud_once_1_1_internal_1_1_utils.html',1,'CloudOnce.Internal.Utils']]]
 ];

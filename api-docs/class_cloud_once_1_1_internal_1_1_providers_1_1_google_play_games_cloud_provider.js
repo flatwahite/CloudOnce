@@ -12,8 +12,8 @@ var class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_prov
     [ "CloudSaveInitialized", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a28041dd3e7697d21ab54f740748e1efc", null ],
     [ "IsGpgsInitialized", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#af981320cca2132be52a5f2482e41245e", null ],
     [ "IsSignedIn", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a6302dcbb5a894677e5d2aad6fe23078a", null ],
-    [ "PlayerDisplayName", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#acdffa4cf8e13815458d1c7b9b35940d1", null ],
-    [ "PlayerID", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a5803c80ba749652e206a2ee860ab45f0", null ],
-    [ "PlayerImage", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#abb76a40108fa242ee5f0ce369711efab", null ],
+    [ "PlayerDisplayName", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a00a08fe86f6c979ef05e1890b88eec3c", null ],
+    [ "PlayerID", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#ae8b37b311db0702204587843ca43023b", null ],
+    [ "PlayerImage", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#a9e04755cf6a6e8e0eca8ffe01678d328", null ],
     [ "Storage", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_provider.html#aefafdaacd5f181a192fd165b87b9aef0", null ]
 ];

@@ -10,7 +10,7 @@ var namespace_cloud_once_1_1_internal =
     [ "iCloudListener", "class_cloud_once_1_1_internal_1_1i_cloud_listener.html", null ],
     [ "IJsonConvertible", "interface_cloud_once_1_1_internal_1_1_i_json_convertible.html", null ],
     [ "IJsonDeserializable", "interface_cloud_once_1_1_internal_1_1_i_json_deserializable.html", "interface_cloud_once_1_1_internal_1_1_i_json_deserializable" ],
-    [ "IJsonSerializeable", "interface_cloud_once_1_1_internal_1_1_i_json_serializeable.html", "interface_cloud_once_1_1_internal_1_1_i_json_serializeable" ],
+    [ "IJsonSerializable", "interface_cloud_once_1_1_internal_1_1_i_json_serializable.html", "interface_cloud_once_1_1_internal_1_1_i_json_serializable" ],
     [ "IPersistent", "interface_cloud_once_1_1_internal_1_1_i_persistent.html", "interface_cloud_once_1_1_internal_1_1_i_persistent" ],
     [ "JSONObject", "class_cloud_once_1_1_internal_1_1_j_s_o_n_object.html", "class_cloud_once_1_1_internal_1_1_j_s_o_n_object" ],
     [ "PersistentCurrency", "class_cloud_once_1_1_internal_1_1_persistent_currency.html", "class_cloud_once_1_1_internal_1_1_persistent_currency" ],

@@ -1,11 +1,8 @@
 var hierarchy =
 [
     [ "CloudOnce.Internal.Editor.Utils.GPGSStrings.AndroidSetup", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings_1_1_android_setup.html", null ],
-    [ "CloudOnce.Internal.Editor.Utils.AutoAddDefineSymbols", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_auto_add_define_symbols.html", null ],
     [ "CloudOnce.Internal.CloudOnceEvents", "class_cloud_once_1_1_internal_1_1_cloud_once_events.html", null ],
-    [ "CloudOnce.Internal.CloudProviderBase< AmazonCloudProvider >", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html", [
-      [ "CloudOnce.Internal.Providers.AmazonCloudProvider", "class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html", null ]
-    ] ],
+    [ "CloudOnce.Internal.Editor.CloudOnceUpgrader", "class_cloud_once_1_1_internal_1_1_editor_1_1_cloud_once_upgrader.html", null ],
     [ "CloudOnce.Internal.CloudProviderBase< DummyProvider >", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html", [
       [ "CloudOnce.Internal.Providers.DummyProvider", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_provider.html", null ]
     ] ],
@@ -31,7 +28,6 @@ var hierarchy =
     [ "CloudOnce.Internal.Providers.GenericLeaderboardsWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_generic_leaderboards_wrapper.html", null ],
     [ "CloudOnce.Internal.Editor.Utils.GPGSStrings", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_g_p_g_s_strings.html", null ],
     [ "CloudOnce.Internal.Utils.IAchievementUtils", "interface_cloud_once_1_1_internal_1_1_utils_1_1_i_achievement_utils.html", [
-      [ "CloudOnce.Internal.Utils.AmazonAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_amazon_achievement_utils.html", null ],
       [ "CloudOnce.Internal.Utils.AppleAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_apple_achievement_utils.html", null ],
       [ "CloudOnce.Internal.Utils.EditorAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_editor_achievement_utils.html", null ],
       [ "CloudOnce.Internal.Utils.GoogleAchievementUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_google_achievement_utils.html", null ]
@@ -40,7 +36,6 @@ var hierarchy =
       [ "CloudOnce.Internal.CloudProviderBase< T >", "class_cloud_once_1_1_internal_1_1_cloud_provider_base.html", null ]
     ] ],
     [ "CloudOnce.Internal.Providers.ICloudStorageProvider", "interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_storage_provider.html", [
-      [ "CloudOnce.Internal.Providers.AmazonWhisperSyncWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_whisper_sync_wrapper.html", null ],
       [ "CloudOnce.Internal.Providers.DummyStorageWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_storage_wrapper.html", null ],
       [ "CloudOnce.Internal.Providers.GooglePlayGamesCloudSaveWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_google_play_games_cloud_save_wrapper.html", null ],
       [ "CloudOnce.Internal.Providers.iOSCloudSaveWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_save_wrapper.html", null ],
@@ -58,14 +53,13 @@ var hierarchy =
         [ "CloudOnce.Internal.SyncableItemMetaData", "class_cloud_once_1_1_internal_1_1_syncable_item_meta_data.html", null ]
       ] ]
     ] ],
-    [ "CloudOnce.Internal.IJsonSerializeable", "interface_cloud_once_1_1_internal_1_1_i_json_serializeable.html", [
+    [ "CloudOnce.Internal.IJsonSerializable", "interface_cloud_once_1_1_internal_1_1_i_json_serializable.html", [
       [ "CloudOnce.Internal.Editor.Data.CloudConfig", "class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_cloud_config.html", null ],
       [ "CloudOnce.Internal.Editor.Data.CloudVariableData", "class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_cloud_variable_data.html", null ],
       [ "CloudOnce.Internal.Editor.Data.PlatformIdData", "class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_platform_id_data.html", null ],
       [ "CloudOnce.Internal.IJsonConvertible", "interface_cloud_once_1_1_internal_1_1_i_json_convertible.html", null ]
     ] ],
     [ "CloudOnce.Internal.Utils.ILeaderboardUtils", "interface_cloud_once_1_1_internal_1_1_utils_1_1_i_leaderboard_utils.html", [
-      [ "CloudOnce.Internal.Utils.AmazonLeaderboardUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_amazon_leaderboard_utils.html", null ],
       [ "CloudOnce.Internal.Utils.AppleLeaderboardUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_apple_leaderboard_utils.html", null ],
       [ "CloudOnce.Internal.Utils.EditorLeaderboardUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_editor_leaderboard_utils.html", null ],
       [ "CloudOnce.Internal.Utils.GoogleLeaderboardUtils", "class_cloud_once_1_1_internal_1_1_utils_1_1_google_leaderboard_utils.html", null ]
@@ -121,6 +115,7 @@ var hierarchy =
     [ "CloudOnce.Internal.PersistentValue< uint >", "class_cloud_once_1_1_internal_1_1_persistent_value.html", [
       [ "CloudOnce.CloudPrefs.CloudUInt", "class_cloud_once_1_1_cloud_prefs_1_1_cloud_u_int.html", null ]
     ] ],
+    [ "CloudOnce.Internal.Editor.Utils.PlistBuddyHelper", "class_cloud_once_1_1_internal_1_1_editor_1_1_utils_1_1_plist_buddy_helper.html", null ],
     [ "CloudOnce.Internal.Editor.Data.PluginVersion", "class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_plugin_version.html", null ],
     [ "ScriptableObject", null, [
       [ "CloudOnce.Internal.Editor.Data.CloudConfig", "class_cloud_once_1_1_internal_1_1_editor_1_1_data_1_1_cloud_config.html", null ]

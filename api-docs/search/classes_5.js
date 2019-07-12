@@ -6,7 +6,7 @@ var searchData=
   ['icloudstorageprovider',['ICloudStorageProvider',['../interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_storage_provider.html',1,'CloudOnce::Internal::Providers']]],
   ['ijsonconvertible',['IJsonConvertible',['../interface_cloud_once_1_1_internal_1_1_i_json_convertible.html',1,'CloudOnce::Internal']]],
   ['ijsondeserializable',['IJsonDeserializable',['../interface_cloud_once_1_1_internal_1_1_i_json_deserializable.html',1,'CloudOnce::Internal']]],
-  ['ijsonserializeable',['IJsonSerializeable',['../interface_cloud_once_1_1_internal_1_1_i_json_serializeable.html',1,'CloudOnce::Internal']]],
+  ['ijsonserializable',['IJsonSerializable',['../interface_cloud_once_1_1_internal_1_1_i_json_serializable.html',1,'CloudOnce::Internal']]],
   ['ileaderboardutils',['ILeaderboardUtils',['../interface_cloud_once_1_1_internal_1_1_utils_1_1_i_leaderboard_utils.html',1,'CloudOnce::Internal::Utils']]],
   ['initializecloudonce',['InitializeCloudOnce',['../class_cloud_once_1_1_quick_start_1_1_initialize_cloud_once.html',1,'CloudOnce::QuickStart']]],
   ['ioscloudprovider',['iOSCloudProvider',['../class_cloud_once_1_1_internal_1_1_providers_1_1i_o_s_cloud_provider.html',1,'CloudOnce::Internal::Providers']]],

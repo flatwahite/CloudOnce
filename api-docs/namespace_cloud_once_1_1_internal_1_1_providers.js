@@ -1,7 +1,5 @@
 var namespace_cloud_once_1_1_internal_1_1_providers =
 [
-    [ "AmazonCloudProvider", "class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider.html", "class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_cloud_provider" ],
-    [ "AmazonWhisperSyncWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_whisper_sync_wrapper.html", "class_cloud_once_1_1_internal_1_1_providers_1_1_amazon_whisper_sync_wrapper" ],
     [ "DummyProvider", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_provider.html", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_provider" ],
     [ "DummyStorageWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_storage_wrapper.html", "class_cloud_once_1_1_internal_1_1_providers_1_1_dummy_storage_wrapper" ],
     [ "GenericAchievementsWrapper", "class_cloud_once_1_1_internal_1_1_providers_1_1_generic_achievements_wrapper.html", "class_cloud_once_1_1_internal_1_1_providers_1_1_generic_achievements_wrapper" ],
