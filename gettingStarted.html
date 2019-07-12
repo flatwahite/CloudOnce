@@ -400,20 +400,20 @@
                                 <p>If you prefer to implement the initialization into one of your existing scripts, you must first add the using directive
                                     <a href="api-docs/namespace_cloud_once.html"><code class="hl-code code-icon namespace-icon">CloudOnce</code></a>
                                     and then use the method
-                                    <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
+                                    <a href="api-docs/class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec">
                                     <code class="hl-code code-icon method-icon" data-lang="csharp">Cloud.<span class="hl-method">Initialize</span>()</code></a>
                                     for initialization. It is recommended to call this method in an <a href="http://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html">Awake method</a>.
                                     To know when the initialization is complete you can subscribe to the event 
-                                    <a href="api-docs/class_cloud_once_1_1_internal_1_1_cloud_once_events.html#a08d39082460cbfc43c3c56a5b0fe951d">
+                                    <a href="api-docs/class_cloud_once_1_1_cloud.html#a37d52a83795f0e0cd942d2332c4261df">
                                         <code class="hl-code code-icon event-icon">Cloud.OnInitializeComplete</code></a>.</p>
                                 <p>If you don't intend to use Cloud Save in your game, you can disable it by adding <code class="language-csharp">false</code> as a parameter to the Initialize method,
-                                    like this: <a href="api-docs/interface_cloud_once_1_1_internal_1_1_providers_1_1_i_cloud_provider.html#a963eeeca6906871d90ae87d6cd756d83">
+                                    like this: <a href="api-docs/class_cloud_once_1_1_cloud.html#a7577bc883719ff67ed1e09b723f8f5ec">
                                     <code class="hl-code code-icon method-icon">Cloud.<span class="hl-method">Initialize</span>(<span class="hl-keyword">false</span>)</code></a>.</p>
                                 <p>You also have to option of disabling auto sign-in and auto load in the Initialize method.</p>
                                 <span class="anchor" id="init-example-code"></span>
                                 <h4>Example code</h4>
                                 <p>This example code shows initialization of CloudOnce and subscribing to the event
-                                    <a href="api-docs/class_cloud_once_1_1_internal_1_1_cloud_once_events.html#a08d39082460cbfc43c3c56a5b0fe951d">
+                                    <a href="api-docs/class_cloud_once_1_1_cloud.html#a37d52a83795f0e0cd942d2332c4261df">
                                         <code class="hl-code code-icon event-icon">Cloud.OnInitializeComplete</code></a>.</p>
                                 <pre><code class="language-csharp">using CloudOnce;
 using UnityEngine;
@@ -864,7 +864,7 @@ public class AdvancedCloudSaveExample : MonoBehaviour
                                         <code class="hl-code code-icon method-icon">Cloud.Storage.<span class="hl-method">Load</span>()</code></a> is called
                                         automatically when the user signs in on the current platform. To call a method when new cloud data is received,
                                         subscribe to this event:
-                                        <a href="api-docs/class_cloud_once_1_1_internal_1_1_cloud_once_events.html#a4620b07d9d3b6a1a327ebe1926da6f94">
+                                        <a href="api-docs/class_cloud_once_1_1_cloud.html#a7af01dc4a1cc2e695d8771b1fd42266c">
                                             <code class="hl-code code-icon event-icon">Cloud.OnNewCloudValues</code></a>. A common example is to update
                                         GUI elements after new cloud data is received.</p>
                                     <p>The load method can be called at any time after initialization to check for new cloud data, but with most games, the automatic load
